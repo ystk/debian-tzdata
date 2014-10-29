@@ -1,10 +1,10 @@
 This is the Debian prepackaged version of the Time Zone and Daylight 
 Saving Time Data. 
 
-It was downloaded from ftp://elsie.nci.nih.gov/pub/
+It was downloaded from http://www.iana.org/time-zones
 
-Upstream Authors: Arthur David Olson et.al.
-Commentary should be addressed to tz@elsie.nci.nih.gov
+Upstream Author: The Internet Assigned Numbers Authority (IANA)
+Commentary should be addressed to tz@iana.org
 
 Copyright: This database is in the public domain.
 

@@ -1,4 +1,4 @@
 version=3
-ftp://elsie.nci.nih.gov/pub/tzdata(\w+)\.tar\.gz   \
+ftp://ftp.iana.org/tz/releases/tzdata(\w+)\.tar\.gz   \
     debian uupdate
 

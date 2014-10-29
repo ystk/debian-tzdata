@@ -25,12 +25,6 @@ TIMEZONES := africa \
              systemv \
 	     pacificnew
 
-ifeq ($(EMDEBIAN),)
-TIMEZONES += solar87 \
-             solar88 \
-             solar89
-endif
-
 TIMEZONES_JAVA := gmt \
                   jdk11_backward
 

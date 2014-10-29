@@ -1,3 +1,116 @@
+tzdata (2014h-0squeeze1) squeeze-lts; urgency=medium
+
+  * New upstream version.
+    - New DST for Russia (closes: #761267).
+    - Timezone change for Turks & Caicos.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Tue, 21 Oct 2014 00:32:48 +0200
+
+tzdata (2014e-0squeeze1) oldstable; urgency=medium
+
+  * New upstream version.
+    - New DST for Egypt.
+    - New DST for Morroco.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sun, 15 Jun 2014 22:24:07 +0200
+
+tzdata (2014c-0squeeze1) oldstable; urgency=low
+
+  * New upstream version.
+    - New DST for Egypt.
+    - Timezone change for Crimea.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Tue, 13 May 2014 22:04:55 +0200
+
+tzdata (2014a-0squeeze1) oldstable; urgency=low
+
+  * New upstream version.
+    - New DST for Chile (closes: #741265), Fiji and Turkey (closes:
+      #741523).
+
+ -- Aurelien Jarno <aurel32@debian.org>  Thu, 13 Mar 2014 23:05:38 +0100
+
+tzdata (2013i-0squeeze1) oldstable; urgency=medium
+
+  * New upstream version.
+  * Remove solar87, solar88 and solar89 from the list of timezones, as
+    they have been removed upstream.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sun, 26 Jan 2014 21:43:42 +0100
+
+tzdata (2013d-0squeeze1) oldstable; urgency=low
+
+  * New upstream release
+
+ -- Lior Kaplan <kaplan@debian.org>  Sun, 06 Oct 2013 01:33:18 +0200
+
+tzdata (2013c-0squeeze1) oldstable; urgency=low
+
+  * New upstream version.
+
+ -- Clint Adams <clint@debian.org>  Mon, 13 May 2013 17:19:51 -0400
+
+tzdata (2012g-0squeeze1) stable; urgency=low
+
+  * New upstream version.
+  * Add brazil-dst-2012-changes.diff from Antonio Terceiro to add
+    DST 2012 rule for the America/Bahia zone.  Closes: #690606.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Fri, 19 Oct 2012 16:22:03 +0200
+
+tzdata (2012c-0squeeze1) stable; urgency=low
+
+  * New upstream release.
+
+ -- Clint Adams <clint@debian.org>  Fri, 04 May 2012 23:13:01 -0400
+
+tzdata (2011n-0squeeze1) stable; urgency=low
+
+  * New upstream veersion, fixing DST for: 
+    - Cuba.
+    - Fidji.
+    - Pridnestrovian Moldavian Republic.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Mon, 31 Oct 2011 23:38:55 +0100
+
+tzdata (2011m-0squeeze1) stable; urgency=low
+
+  * New upstream version, fix DST for:
+    - Pridnestrovian Moldavian Republic.
+    - Ukraine (Closes: #645783).
+    - Bahia, Brazil. Drop debian/patches/bahia.diff.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Tue, 25 Oct 2011 05:21:19 +0200
+
+tzdata (2011l-0squeeze1) stable; urgency=low
+
+  * New upstream release.
+  * Upstream is now IANA, update debian/copyright and debian/watch 
+    accordingly.
+  * debian/patches/bahia.diff: add DST for America/Bahia (Closes: #645638).
+
+ -- Aurelien Jarno <aurel32@debian.org>  Mon, 17 Oct 2011 22:01:37 +0200
+
+tzdata (2011k-0squeeze1) stable; urgency=low
+
+  * New upstream release:
+    - Update DST rules for Ukraine.  Closes: #642232.
+    - Update DST rules for Belarus.  Closes: #641846.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Mon, 26 Sep 2011 20:30:23 +0200
+
+tzdata (2011h-0squeeze1) stable; urgency=low
+
+  * New upstream release.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sat, 13 Aug 2011 16:53:14 +0200
+
+tzdata (2011d-0squeeze1) stable; urgency=low
+
+  * New upstream release. 
+
+ -- Aurelien Jarno <aurel32@debian.org>  Wed, 23 Mar 2011 13:01:57 +0100
+
 tzdata (2011c-0squeeze1) stable; urgency=low
 
   * New upstream release.
