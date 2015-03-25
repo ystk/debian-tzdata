@@ -1,3 +1,18 @@
+tzdata (2015b-0squeeze1) squeeze-lts; urgency=medium
+
+  * New upstream version:
+    - New leap second 2015-06-30 23:59:60 UTC (closes: #775161).
+    - New DST for Mongolia.
+    - New DST for Palestine.
+    - New DST for Cancun (Mexico).
+    - New DST for Chile.
+    - New DST for Fiji.
+    - Timezone change for Turks & Caicos.
+    - New timezone for Bougainville (Papua New Guinea).
+    - New timezone abbreviation for Belarus.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sun, 22 Mar 2015 23:27:16 +0100
+
 tzdata (2014h-0squeeze1) squeeze-lts; urgency=medium
 
   * New upstream version.
