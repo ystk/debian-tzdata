@@ -1,3 +1,50 @@
+tzdata (2015b-1) unstable; urgency=high
+
+  * New upstream release with urgent updates for Mongolia and Palestine.
+
+ -- Adam Conrad <adconrad@0c3.net>  Sat, 21 Mar 2015 12:25:26 -0600
+
+tzdata (2015a-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Clint Adams <clint@debian.org>  Fri, 30 Jan 2015 21:53:01 -0500
+
+tzdata (2014j-1) unstable; urgency=high
+
+  * New upstream release, with an ammendment for a change that was
+    meant to occur ten days ago for America/Grand_Turk, but didn't.
+
+ -- Adam Conrad <adconrad@0c3.net>  Wed, 12 Nov 2014 19:37:38 -0700
+
+tzdata (2014i-1) unstable; urgency=critical
+
+  * New upstream release with zone changes in 4 days for Belarus.
+
+ -- Adam Conrad <adconrad@0c3.net>  Wed, 22 Oct 2014 16:31:47 -0600
+
+tzdata (2014h-2) unstable; urgency=medium
+
+  [ Debconf translations ]
+  * Dutch (Frans Spiesscha).  Closes: #763458
+
+  [ Aurelien Jarno ]
+  * debian/control: Update Standards-Version to 3.9.6, no changes.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Tue, 07 Oct 2014 23:41:18 +0200
+
+tzdata (2014h-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sun, 28 Sep 2014 20:29:16 +0200
+
+tzdata (2014g-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Adam Conrad <adconrad@0c3.net>  Sat, 30 Aug 2014 14:24:21 -0600
+
 tzdata (2014f-1) unstable; urgency=medium
 
   [ Debconf translations ]
@@ -213,7 +260,7 @@ tzdata (2011n-2) unstable; urgency=low
 
 tzdata (2011n-1) unstable; urgency=critical
 
-  * New upstream veersion, fixing DST for: 
+  * New upstream veersion, fixing DST for:
     - Cuba.
     - Fidji.
     - Pridnestrovian Moldavian Republic.
@@ -289,7 +336,7 @@ tzdata (2011i-2) unstable; urgency=medium
     the old and the new path, to avoid adding a versioned dependency on
     openjdk-6-jre-headless that would prevent migration to testing.  Closes:
     #640276.
-  * Set urgency to medium to avoid delaying too much migration to testing 
+  * Set urgency to medium to avoid delaying too much migration to testing
     with this upload.
 
   [ Debconf translations ]
@@ -305,9 +352,9 @@ tzdata (2011i-1) unstable; urgency=low
 
 tzdata (2011h-4) unstable; urgency=low
 
-  * Add build-arch and build-indep targets. 
+  * Add build-arch and build-indep targets.
   * Remove hardlinks to comply with the policy, by replacing identical
-    files with symlinks. It also reduces the package size by 38% and 
+    files with symlinks. It also reduces the package size by 38% and
     the installed size by 35%.
   * Change the source compression format to "xz", .po files in plenty of
     different languages compress very well.
@@ -316,14 +363,14 @@ tzdata (2011h-4) unstable; urgency=low
 
 tzdata (2011h-3) unstable; urgency=low
 
-  * Correctly handle empty debconf values (how is that possible for a 
+  * Correctly handle empty debconf values (how is that possible for a
     select entry?).  Closes: #545146, #631878.
 
  -- Aurelien Jarno <aurel32@debian.org>  Mon, 04 Jul 2011 19:53:21 +0200
 
 tzdata (2011h-2) unstable; urgency=low
 
-  * Ignore debconf errors, return default values in that case. 
+  * Ignore debconf errors, return default values in that case.
     Closes: #631878.
 
  -- Aurelien Jarno <aurel32@debian.org>  Tue, 28 Jun 2011 07:23:04 +0200
