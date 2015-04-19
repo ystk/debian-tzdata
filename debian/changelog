@@ -1,3 +1,10 @@
+tzdata (2015c-0+deb6u1) squeeze-lts; urgency=medium
+
+  * New upstream version:
+    - DST rule fix for Egypt.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Thu, 16 Apr 2015 22:37:57 +0200
+
 tzdata (2015b-0squeeze1) squeeze-lts; urgency=medium
 
   * New upstream version:
