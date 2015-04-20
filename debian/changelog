@@ -1,3 +1,9 @@
+tzdata (2015c-1) unstable; urgency=high
+
+  * New upstream release, with an urgent change for Egypt in ten days.
+
+ -- Adam Conrad <adconrad@0c3.net>  Tue, 14 Apr 2015 08:35:34 -0600
+
 tzdata (2015b-1) unstable; urgency=high
 
   * New upstream release with urgent updates for Mongolia and Palestine.
