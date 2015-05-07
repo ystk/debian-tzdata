@@ -1,3 +1,10 @@
+tzdata (2015d-0+deb6u1) squeeze-lts; urgency=medium
+
+  * New upstream version:
+    - Remove DST rule for Egypt starting in 2015.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Mon, 27 Apr 2015 22:44:20 +0200
+
 tzdata (2015c-0+deb6u1) squeeze-lts; urgency=medium
 
   * New upstream version:
