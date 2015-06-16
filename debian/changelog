@@ -1,3 +1,11 @@
+tzdata (2015d-0+deb8u1) stable; urgency=medium
+
+  * New upstream version:
+    - Remove DST rule for Egypt starting in 2015.
+  * Install leap-seconds.list to /usr/share/zoneinfo (Closes: #775166)
+
+ -- Aurelien Jarno <aurel32@debian.org>  Mon, 27 Apr 2015 23:20:28 +0200
+
 tzdata (2015c-1) unstable; urgency=high
 
   * New upstream release, with an urgent change for Egypt in ten days.

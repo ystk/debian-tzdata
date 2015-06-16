@@ -141,6 +141,8 @@ binary-indep: build install
 	dh_installdocs
 	dh_compress
 	dh_fixperms
+	# Upstream ships this 755 for some bizarre reason:
+	chmod 644 debian/tzdata/usr/share/zoneinfo/leap-seconds.list
 	dh_installdeb
 	dh_gencontrol
 	dh_md5sums
