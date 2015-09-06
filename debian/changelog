@@ -1,3 +1,19 @@
+tzdata (2015f-0+deb8u1) stable; urgency=medium
+
+  * New upstream version, affecting the following future time stamps:
+    - North Korea switches to +0830 on 2015-08-15.
+    - Uruguay no longer observes DST.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Tue, 11 Aug 2015 20:29:38 +0200
+
+tzdata (2015e-0+deb8u1) stable; urgency=medium
+
+  * New upstream version:
+    - DST suspension from 2015-06-14 03:00 through 2015-07-19 02:00 in
+      Morroco.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Tue, 16 Jun 2015 20:46:53 +0200
+
 tzdata (2015d-0+deb8u1) stable; urgency=medium
 
   * New upstream version:
