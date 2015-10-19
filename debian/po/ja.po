@@ -11,10 +11,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
-"POT-Creation-Date: 2008-10-27 22:33-0400\n"
+"POT-Creation-Date: 2015-10-18 16:42+0000\n"
 "PO-Revision-Date: 2008-10-30 14:02+0900\n"
 "Last-Translator:  Kenshi Muto <kmuto@debian.org>\n"
 "Language-Team: Debian L10n Japanese <debian-l10n-japanese@lists.debian.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -125,7 +126,10 @@ msgstr "インド地方"
 #. of "GMT+xx" or "GMT-xx" timezones
 #. - SystemV will give the choice between zone named as per SystemV conventions:
 #. EST5, MST7, etc.
-#: ../templates:1001
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:1001 ../templates:13001
 msgid "Pacific"
 msgstr "太平洋側"
 
@@ -148,6 +152,17 @@ msgstr "SystemV"
 #. - SystemV will give the choice between zone named as per SystemV conventions:
 #. EST5, MST7, etc.
 #: ../templates:1001
+msgid "US"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
 msgid "Etc"
 msgstr "その他"
 
@@ -160,10 +175,15 @@ msgstr "地理的領域:"
 #. Type: select
 #. Description
 #: ../templates:1002
+#, fuzzy
+#| msgid ""
+#| "Please select the geographic area you live in. Subsequent configuration "
+#| "questions will narrow this down by presenting a list of cities, "
+#| "representing the time zones in which they are located."
 msgid ""
-"Please select the geographic area you live in. Subsequent configuration "
-"questions will narrow this down by presenting a list of cities, representing "
-"the time zones in which they are located."
+"Please select the geographic area in which you live. Subsequent "
+"configuration questions will narrow this down by presenting a list of "
+"cities, representing the time zones in which they are located."
 msgstr ""
 "あなたの居住する地理的領域を選んでください。続く設定質問で、位置する時間帯を"
 "表現する都市名のリストが表示されるので、これをより狭めていくことができます。"
@@ -342,6 +362,13 @@ msgstr "ハラレ"
 #: ../templates:2001
 msgid "Johannesburg"
 msgstr "ヨハネスバーグ"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:2001
+msgid "Juba"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -556,9 +583,12 @@ msgstr "ウィントフック"
 #. Description
 #. Type: select
 #. Description
+#. Type: select
+#. Description
 #: ../templates:2002 ../templates:3002 ../templates:4002 ../templates:5002
 #: ../templates:6002 ../templates:7002 ../templates:8002 ../templates:9002
-#: ../templates:10002 ../templates:11002 ../templates:12001 ../templates:13001
+#: ../templates:10002 ../templates:11002 ../templates:12001 ../templates:13002
+#: ../templates:14001
 msgid "Time zone:"
 msgstr "時間帯:"
 
@@ -586,10 +616,15 @@ msgstr "時間帯:"
 #. Description
 #. Type: select
 #. Description
+#. Type: select
+#. Description
 #: ../templates:2002 ../templates:3002 ../templates:4002 ../templates:5002
 #: ../templates:6002 ../templates:7002 ../templates:8002 ../templates:9002
-#: ../templates:10002 ../templates:11002 ../templates:12001 ../templates:13001
-msgid "Please select the time zone corresponding to your location."
+#: ../templates:10002 ../templates:11002 ../templates:12001 ../templates:13002
+#: ../templates:14001
+#, fuzzy
+#| msgid "Please select the time zone corresponding to your location."
+msgid "Please select the city or region corresponding to your time zone."
 msgstr "あなたの居住地に一致する時間帯を選択してください。"
 
 #. Type: select
@@ -750,6 +785,13 @@ msgstr "バイア"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:3001
+msgid "Bahia_Banderas"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
 msgid "Barbados"
 msgstr "バルバドス"
 
@@ -869,6 +911,13 @@ msgstr "コスタリカ"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:3001
+msgid "Creston"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
 msgid "Cuiaba"
 msgstr "クヤバ"
 
@@ -948,6 +997,13 @@ msgstr "エルサルバドル"
 #: ../templates:3001
 msgid "Ensenada"
 msgstr "エンセナダ"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
+msgid "Fort_Nelson"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -1142,6 +1198,13 @@ msgstr "ケンタッキー/モンティセロ"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:3001
+msgid "Kralendijk"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
 msgid "La_Paz"
 msgstr "ラパス"
 
@@ -1158,6 +1221,13 @@ msgstr "リマ"
 #: ../templates:3001
 msgid "Los_Angeles"
 msgstr "ロサンゼルス"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
+msgid "Lower_Princes"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -1198,6 +1268,13 @@ msgstr "マルティニク"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:3001
+msgid "Matamoros"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
 msgid "Mazatlan"
 msgstr "マサトラン"
 
@@ -1214,6 +1291,15 @@ msgstr "メノミニー"
 #: ../templates:3001
 msgid "Merida"
 msgstr "メリダ"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
+#, fuzzy
+#| msgid "Mazatlan"
+msgid "Metlakatla"
+msgstr "マサトラン"
 
 #. Type: select
 #. Choices
@@ -1303,6 +1389,15 @@ msgstr "ノロニャ"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:3001
+#, fuzzy
+#| msgid "North_Dakota/Center"
+msgid "North_Dakota/Beulah"
+msgstr "北ダコタ/中央"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
 msgid "North_Dakota/Center"
 msgstr "北ダコタ/中央"
 
@@ -1312,6 +1407,13 @@ msgstr "北ダコタ/中央"
 #: ../templates:3001
 msgid "North_Dakota/New_Salem"
 msgstr "北ダコタ/ニューセイラム"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
+msgid "Ojinaga"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -1422,6 +1524,15 @@ msgstr "リオブランコ"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:3001
+#, fuzzy
+#| msgid "Santarem"
+msgid "Santa_Isabel"
+msgstr "サンタレン"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
 msgid "Santarem"
 msgstr "サンタレン"
 
@@ -1459,6 +1570,13 @@ msgstr "スコレスビスン"
 #: ../templates:3001
 msgid "Shiprock"
 msgstr "シップロック"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
+msgid "Sitka"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -1618,6 +1736,13 @@ msgstr "デュモンデュルヴィル"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:4001
+msgid "Macquarie"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:4001
 msgid "Mawson"
 msgstr "モーソン"
 
@@ -1648,6 +1773,13 @@ msgstr "ロデラ"
 #: ../templates:4001
 msgid "Syowa"
 msgstr "昭和基地"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:4001
+msgid "Troll"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -1863,6 +1995,13 @@ msgstr "ブルネイ"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:7001
+msgid "Chita"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:7001
 msgid "Choibalsan"
 msgstr "チョイバルサン"
 
@@ -1928,6 +2067,13 @@ msgstr "ガザ"
 #: ../templates:7001
 msgid "Harbin"
 msgstr "ハルビン"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:7001
+msgid "Hebron"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -2027,6 +2173,13 @@ msgstr "カトマンズ"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:7001
+msgid "Khandyga"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:7001
 msgid "Kolkata"
 msgstr "コルコタ"
 
@@ -2107,6 +2260,13 @@ msgstr "ニコシア"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:7001
+msgid "Novokuznetsk"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:7001
 msgid "Novosibirsk"
 msgstr "ノヴォシビルスク"
 
@@ -2177,27 +2337,6 @@ msgstr "リヤド"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:7001
-msgid "Riyadh87"
-msgstr "リヤド87"
-
-#. Type: select
-#. Choices
-#. Translators: do not translate underscores. You can use spaces instead.
-#: ../templates:7001
-msgid "Riyadh88"
-msgstr "リヤド88"
-
-#. Type: select
-#. Choices
-#. Translators: do not translate underscores. You can use spaces instead.
-#: ../templates:7001
-msgid "Riyadh89"
-msgstr "リヤド89"
-
-#. Type: select
-#. Choices
-#. Translators: do not translate underscores. You can use spaces instead.
-#: ../templates:7001
 msgid "Sakhalin"
 msgstr "サハリン"
 
@@ -2228,6 +2367,13 @@ msgstr "上海"
 #: ../templates:7001
 msgid "Singapore"
 msgstr "シンガポール"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:7001
+msgid "Srednekolymsk"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -2298,6 +2444,13 @@ msgstr "ウランバートル"
 #: ../templates:7001
 msgid "Urumqi"
 msgstr "ウルムチ"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:7001
+msgid "Ust-Nera"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -2480,6 +2633,13 @@ msgstr "ブカレスト"
 #: ../templates:9001
 msgid "Budapest"
 msgstr "ブダペスト"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:9001
+msgid "Busingen"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -2898,8 +3058,24 @@ msgstr "オークランド"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:11001
+#, fuzzy
+#| msgid "Brazzaville"
+msgid "Bougainville"
+msgstr "ブラザヴィル"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:11001
 msgid "Chatham"
 msgstr "チャタム島"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:11001
+msgid "Chuuk"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -3080,6 +3256,13 @@ msgstr "ピトケアン島"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:11001
+msgid "Pohnpei"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:11001
 msgid "Ponape"
 msgstr "ポナペ"
 
@@ -3107,7 +3290,10 @@ msgstr "サイパン"
 #. Type: select
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
-#: ../templates:11001
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:11001 ../templates:13001
 msgid "Samoa"
 msgstr "サモア"
 
@@ -3159,3 +3345,88 @@ msgstr "ヴァリス"
 #: ../templates:11001
 msgid "Yap"
 msgstr "ヤップ"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Alaska"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Aleutian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Arizona"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Central"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+#, fuzzy
+#| msgid "Easter"
+msgid "Eastern"
+msgstr "イースター島"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Hawaii"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+#, fuzzy
+#| msgid "Indiana/Marengo"
+msgid "Indiana-Starke"
+msgstr "インディアナ/マレンゴ"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Michigan"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Mountain"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+#, fuzzy
+#| msgid "Pacific"
+msgid "Pacific-New"
+msgstr "太平洋側"
+
+#~ msgid "Riyadh87"
+#~ msgstr "リヤド87"
+
+#~ msgid "Riyadh88"
+#~ msgstr "リヤド88"
+
+#~ msgid "Riyadh89"
+#~ msgstr "リヤド89"

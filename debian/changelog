@@ -1,3 +1,17 @@
+tzdata (2015g-0+deb6u1) squeeze-lts; urgency=medium
+
+  * New upstream version:
+    - Fiji
+    - Fort Nelson, British Columbia
+    - Norfolk Island
+    - Turkey (closes: #801172)
+    - North Korea switches to +0830 on 2015-08-15.
+    - Uruguay no longer observes DST (closes: #801336).
+    - DST suspension from 2015-06-14 03:00 through 2015-07-19 02:00 in
+      Morroco.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sun, 18 Oct 2015 18:46:00 +0200
+
 tzdata (2015d-0+deb6u1) squeeze-lts; urgency=medium
 
   * New upstream version:

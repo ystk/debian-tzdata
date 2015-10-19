@@ -9,10 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2008i-2\n"
 "Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
-"POT-Creation-Date: 2008-10-27 22:33-0400\n"
+"POT-Creation-Date: 2015-10-18 16:42+0000\n"
 "PO-Revision-Date: 2008-10-31 09:32+0100\n"
 "Last-Translator: Jordà Polo <jorda@ettin.org>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
+"Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -130,7 +131,10 @@ msgstr "Índic"
 #. of "GMT+xx" or "GMT-xx" timezones
 #. - SystemV will give the choice between zone named as per SystemV conventions:
 #. EST5, MST7, etc.
-#: ../templates:1001
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:1001 ../templates:13001
 msgid "Pacific"
 msgstr "Pacífic"
 
@@ -153,6 +157,17 @@ msgstr "SystemV"
 #. - SystemV will give the choice between zone named as per SystemV conventions:
 #. EST5, MST7, etc.
 #: ../templates:1001
+msgid "US"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
 msgid "Etc"
 msgstr "Etc"
 
@@ -165,10 +180,15 @@ msgstr "Àrea geogràfica:"
 #. Type: select
 #. Description
 #: ../templates:1002
+#, fuzzy
+#| msgid ""
+#| "Please select the geographic area you live in. Subsequent configuration "
+#| "questions will narrow this down by presenting a list of cities, "
+#| "representing the time zones in which they are located."
 msgid ""
-"Please select the geographic area you live in. Subsequent configuration "
-"questions will narrow this down by presenting a list of cities, representing "
-"the time zones in which they are located."
+"Please select the geographic area in which you live. Subsequent "
+"configuration questions will narrow this down by presenting a list of "
+"cities, representing the time zones in which they are located."
 msgstr ""
 "Si us plau, seleccioneu l'àrea geogràfica de residència. Les següents "
 "preguntes de configuració permetran aproximar encara més la selecció tot i "
@@ -356,6 +376,13 @@ msgstr "Harare"
 #: ../templates:2001
 msgid "Johannesburg"
 msgstr "Johannesburg"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:2001
+msgid "Juba"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -581,9 +608,12 @@ msgstr "Windhoek"
 #. Description
 #. Type: select
 #. Description
+#. Type: select
+#. Description
 #: ../templates:2002 ../templates:3002 ../templates:4002 ../templates:5002
 #: ../templates:6002 ../templates:7002 ../templates:8002 ../templates:9002
-#: ../templates:10002 ../templates:11002 ../templates:12001 ../templates:13001
+#: ../templates:10002 ../templates:11002 ../templates:12001 ../templates:13002
+#: ../templates:14001
 msgid "Time zone:"
 msgstr "Fus horari:"
 
@@ -611,10 +641,15 @@ msgstr "Fus horari:"
 #. Description
 #. Type: select
 #. Description
+#. Type: select
+#. Description
 #: ../templates:2002 ../templates:3002 ../templates:4002 ../templates:5002
 #: ../templates:6002 ../templates:7002 ../templates:8002 ../templates:9002
-#: ../templates:10002 ../templates:11002 ../templates:12001 ../templates:13001
-msgid "Please select the time zone corresponding to your location."
+#: ../templates:10002 ../templates:11002 ../templates:12001 ../templates:13002
+#: ../templates:14001
+#, fuzzy
+#| msgid "Please select the time zone corresponding to your location."
+msgid "Please select the city or region corresponding to your time zone."
 msgstr ""
 "Si us plau, seleccioneu el fus horari corresponent a la vostra ubicació."
 
@@ -779,6 +814,13 @@ msgstr "Atka"
 msgid "Bahia"
 msgstr "Bahia"
 
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
+msgid "Bahia_Banderas"
+msgstr ""
+
 # Gnome_2.16_Desktop [gnome-applets-locations.HEAD.ca.po]
 #. Type: select
 #. Choices
@@ -907,6 +949,13 @@ msgstr "Costa Rica"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:3001
+msgid "Creston"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
 msgid "Cuiaba"
 msgstr "Cuiaba"
 
@@ -992,6 +1041,13 @@ msgstr "El Salvador"
 #: ../templates:3001
 msgid "Ensenada"
 msgstr "Ensenada"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
+msgid "Fort_Nelson"
+msgstr ""
 
 # Gnome_2.16_Desktop [gnome-applets-locations.HEAD.ca.po]
 #. Type: select
@@ -1197,6 +1253,13 @@ msgstr "Kentucky/Monticello"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:3001
+msgid "Kralendijk"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
 msgid "La_Paz"
 msgstr "La Paz"
 
@@ -1214,6 +1277,13 @@ msgstr "Lima"
 #: ../templates:3001
 msgid "Los_Angeles"
 msgstr "Los Angeles"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
+msgid "Lower_Princes"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -1257,6 +1327,13 @@ msgstr "Martinica"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:3001
+msgid "Matamoros"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
 msgid "Mazatlan"
 msgstr "Mazatlan"
 
@@ -1275,6 +1352,15 @@ msgstr "Menominee"
 #: ../templates:3001
 msgid "Merida"
 msgstr "Mèrida"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
+#, fuzzy
+#| msgid "Mazatlan"
+msgid "Metlakatla"
+msgstr "Mazatlan"
 
 #. Type: select
 #. Choices
@@ -1372,6 +1458,15 @@ msgstr "Noronha"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:3001
+#, fuzzy
+#| msgid "North_Dakota/Center"
+msgid "North_Dakota/Beulah"
+msgstr "Dakota del Nord/Centre"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
 msgid "North_Dakota/Center"
 msgstr "Dakota del Nord/Centre"
 
@@ -1381,6 +1476,13 @@ msgstr "Dakota del Nord/Centre"
 #: ../templates:3001
 msgid "North_Dakota/New_Salem"
 msgstr "Dakota del Nord/New Salem"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
+msgid "Ojinaga"
+msgstr ""
 
 # Mozilla 1.3->pa
 #. Type: select
@@ -1497,6 +1599,15 @@ msgstr "Rio Branco"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:3001
+#, fuzzy
+#| msgid "Santarem"
+msgid "Santa_Isabel"
+msgstr "Santarém"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
 msgid "Santarem"
 msgstr "Santarém"
 
@@ -1535,6 +1646,13 @@ msgstr "Scoresbysund"
 #: ../templates:3001
 msgid "Shiprock"
 msgstr "Shiprock"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:3001
+msgid "Sitka"
+msgstr ""
 
 # Gnome_2.16_Desktop [gnome-applets-locations.HEAD.ca.po]
 #. Type: select
@@ -1703,6 +1821,13 @@ msgstr "DumontDUrville"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:4001
+msgid "Macquarie"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:4001
 msgid "Mawson"
 msgstr "Mawson"
 
@@ -1734,6 +1859,13 @@ msgstr "Rothera"
 #: ../templates:4001
 msgid "Syowa"
 msgstr "Syowa"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:4001
+msgid "Troll"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -1968,6 +2100,13 @@ msgstr "Brunei"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:7001
+msgid "Chita"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:7001
 msgid "Choibalsan"
 msgstr "Choibalsan"
 
@@ -2038,6 +2177,13 @@ msgstr "Gaza"
 #: ../templates:7001
 msgid "Harbin"
 msgstr "Harbin"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:7001
+msgid "Hebron"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -2141,6 +2287,13 @@ msgstr "Katmandú"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:7001
+msgid "Khandyga"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:7001
 msgid "Kolkata"
 msgstr "Calcuta"
 
@@ -2223,6 +2376,13 @@ msgstr "Muscat"
 msgid "Nicosia"
 msgstr "Nicosia"
 
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:7001
+msgid "Novokuznetsk"
+msgstr ""
+
 # Gnome_2.16_Desktop [gnome-applets-locations.HEAD.ca.po]
 #. Type: select
 #. Choices
@@ -2302,27 +2462,6 @@ msgstr "Riyadh"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:7001
-msgid "Riyadh87"
-msgstr "Riyadh87"
-
-#. Type: select
-#. Choices
-#. Translators: do not translate underscores. You can use spaces instead.
-#: ../templates:7001
-msgid "Riyadh88"
-msgstr "Riyadh88"
-
-#. Type: select
-#. Choices
-#. Translators: do not translate underscores. You can use spaces instead.
-#: ../templates:7001
-msgid "Riyadh89"
-msgstr "Riyadh89"
-
-#. Type: select
-#. Choices
-#. Translators: do not translate underscores. You can use spaces instead.
-#: ../templates:7001
 msgid "Sakhalin"
 msgstr "Sakhalin"
 
@@ -2356,6 +2495,13 @@ msgstr "Xangai"
 #: ../templates:7001
 msgid "Singapore"
 msgstr "Singapur"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:7001
+msgid "Srednekolymsk"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -2428,6 +2574,13 @@ msgstr "Ulaanbaatar"
 #: ../templates:7001
 msgid "Urumqi"
 msgstr "Urumqi"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:7001
+msgid "Ust-Nera"
+msgstr ""
 
 # Gnome_2.16_Desktop [gnome-applets-locations.HEAD.ca.po]
 #. Type: select
@@ -2625,6 +2778,13 @@ msgstr "Bucarest"
 #: ../templates:9001
 msgid "Budapest"
 msgstr "Budapest"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:9001
+msgid "Busingen"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -3080,6 +3240,15 @@ msgstr "Apia"
 msgid "Auckland"
 msgstr "Auckland"
 
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:11001
+#, fuzzy
+#| msgid "Brazzaville"
+msgid "Bougainville"
+msgstr "Brazzaville"
+
 # Gnome_2.16_Desktop [gnome-applets-locations.HEAD.ca.po]
 #. Type: select
 #. Choices
@@ -3087,6 +3256,13 @@ msgstr "Auckland"
 #: ../templates:11001
 msgid "Chatham"
 msgstr "Chatham"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:11001
+msgid "Chuuk"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -3280,6 +3456,13 @@ msgstr "Pitcairn"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../templates:11001
+msgid "Pohnpei"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:11001
 msgid "Ponape"
 msgstr "Ponape"
 
@@ -3309,7 +3492,10 @@ msgstr "Saipan"
 #. Type: select
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
-#: ../templates:11001
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:11001 ../templates:13001
 msgid "Samoa"
 msgstr "Samoa"
 
@@ -3363,6 +3549,90 @@ msgstr "Wallis"
 msgid "Yap"
 msgstr "Yap"
 
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Alaska"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Aleutian"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Arizona"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Central"
+msgstr "Central"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Eastern"
+msgstr "Oriental"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Hawaii"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+#, fuzzy
+#| msgid "Indiana/Marengo"
+msgid "Indiana-Starke"
+msgstr "Indiana/Marengo"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Michigan"
+msgstr ""
+
+# Gnome_2.16_Desktop [gnome-applets-locations.HEAD.ca.po]
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+msgid "Mountain"
+msgstr "Muntanya"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../templates:13001
+#, fuzzy
+#| msgid "Pacific"
+msgid "Pacific-New"
+msgstr "Pacífic"
+
+#~ msgid "Riyadh87"
+#~ msgstr "Riyadh87"
+
+#~ msgid "Riyadh88"
+#~ msgstr "Riyadh88"
+
+#~ msgid "Riyadh89"
+#~ msgstr "Riyadh89"
+
 #~ msgid "Calcutta"
 #~ msgstr "Calcuta"
 
@@ -3373,18 +3643,8 @@ msgstr "Yap"
 #~ msgid "Canada"
 #~ msgstr "Canada"
 
-#~ msgid "Central"
-#~ msgstr "Central"
-
 #~ msgid "East-Saskatchewan"
 #~ msgstr "Saskatchewan Est"
-
-#~ msgid "Eastern"
-#~ msgstr "Oriental"
-
-# Gnome_2.16_Desktop [gnome-applets-locations.HEAD.ca.po]
-#~ msgid "Mountain"
-#~ msgstr "Muntanya"
 
 #~ msgid "Newfoundland"
 #~ msgstr "Terranova"
