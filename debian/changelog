@@ -1,3 +1,23 @@
+tzdata (2016c-0+deb8u1) stable; urgency=medium
+
+  * New upstream version, affecting the following future time stamps:
+    - America/Santiago
+    - Asia/Baku
+
+ -- Aurelien Jarno <aurel32@debian.org>  Fri, 25 Mar 2016 23:58:54 +0100
+
+tzdata (2016b-0+deb8u1) stable; urgency=medium
+
+  * New upstream version, affecting the following future time stamps:
+    - America/Cayman
+    - America/Port-au-Prince
+    - Asia/Chita
+    - Asia/Gaza
+    - Asia/Hebron
+    - Asia/Tehran
+
+ -- Aurelien Jarno <aurel32@debian.org>  Mon, 14 Mar 2016 21:53:38 +0100
+
 tzdata (2015g-0+deb8u1) stable; urgency=medium
 
   [ Aurelien Jarno ]

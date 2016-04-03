@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tzdata\n"
 "Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
-"POT-Creation-Date: 2013-12-24 23:07+0100\n"
+"POT-Creation-Date: 2015-10-08 14:48+0000\n"
 "PO-Revision-Date: 2013-12-24 23:13+0100\n"
 "Last-Translator: Praveen|പ്രവീണ്‍ A|എ <pravi.a@gmail.com>\n"
 "Language-Team: Swathanthra Malayalam Computing <smc-discuss@googlegroups."
@@ -1013,6 +1013,13 @@ msgstr "എന്‍സേനഡ"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:3001
+msgid "Fort_Nelson"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:3001
 msgid "Fortaleza"
 msgstr "ഫോര്‍ട്ടലേസ"
 
@@ -1782,6 +1789,13 @@ msgstr "സിയോവ"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:4001
+msgid "Troll"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:4001
 msgid "Vostok"
 msgstr "വോസ്ടോക്"
 
@@ -1987,6 +2001,13 @@ msgstr "ബിഷ്കെക്ക്"
 #: ../tzdata.templates:7001
 msgid "Brunei"
 msgstr "ബ്രൂണൈ"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:7001
+msgid "Chita"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -2357,6 +2378,13 @@ msgstr "ഷാങ്ഹായ്"
 #: ../tzdata.templates:7001
 msgid "Singapore"
 msgstr "സിഗപ്പൂര്‍"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:7001
+msgid "Srednekolymsk"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -3036,6 +3064,15 @@ msgstr "അപിയ"
 #: ../tzdata.templates:11001
 msgid "Auckland"
 msgstr "ഓക്‍ലണ്ട് ‍ "
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:11001
+#, fuzzy
+#| msgid "Brazzaville"
+msgid "Bougainville"
+msgstr "ബ്രസ്സാവില്ലെ"
 
 #. Type: select
 #. Choices

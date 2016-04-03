@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
-"POT-Creation-Date: 2013-12-24 23:07+0100\n"
+"POT-Creation-Date: 2015-10-08 14:48+0000\n"
 "PO-Revision-Date: 2013-12-24 23:13+0100\n"
 "Last-Translator: Kęstutis Biliūnas <kebil@kaunas.init.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
@@ -1006,6 +1006,13 @@ msgstr "Ensenada"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:3001
+msgid "Fort_Nelson"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:3001
 msgid "Fortaleza"
 msgstr "Fortaleza"
 
@@ -1775,6 +1782,13 @@ msgstr "Seva"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:4001
+msgid "Troll"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:4001
 msgid "Vostok"
 msgstr "Vostokas"
 
@@ -1980,6 +1994,13 @@ msgstr "Biškekas"
 #: ../tzdata.templates:7001
 msgid "Brunei"
 msgstr "Brunėjus"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:7001
+msgid "Chita"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -2350,6 +2371,13 @@ msgstr "Šanchajus"
 #: ../tzdata.templates:7001
 msgid "Singapore"
 msgstr "Singapūras"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:7001
+msgid "Srednekolymsk"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -3029,6 +3057,15 @@ msgstr "Apija"
 #: ../tzdata.templates:11001
 msgid "Auckland"
 msgstr "Oklandas"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:11001
+#, fuzzy
+#| msgid "Brazzaville"
+msgid "Bougainville"
+msgstr "Brazavilis"
 
 #. Type: select
 #. Choices
