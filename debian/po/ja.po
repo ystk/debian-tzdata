@@ -6,19 +6,22 @@
 # Japanese messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
+# Takuma Yamada <tyamada@takumayamada.com>, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
-"POT-Creation-Date: 2015-10-08 14:48+0000\n"
-"PO-Revision-Date: 2013-12-24 23:13+0100\n"
-"Last-Translator:  Kenshi Muto <kmuto@debian.org>\n"
-"Language-Team: Debian L10n Japanese <debian-l10n-japanese@lists.debian.org>\n"
+"POT-Creation-Date: 2016-04-20 20:30+0200\n"
+"PO-Revision-Date: 2016-03-23 10:26+0900\n"
+"Last-Translator: Takuma Yamada <tyamada@takumayamada.com>\n"
+"Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #. Type: select
 #. Choices
@@ -998,7 +1001,7 @@ msgstr "エンセナダ"
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:3001
 msgid "Fort_Nelson"
-msgstr ""
+msgstr "フォートネルソン"
 
 #. Type: select
 #. Choices
@@ -1768,7 +1771,7 @@ msgstr "昭和基地"
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:4001
 msgid "Troll"
-msgstr ""
+msgstr "トロル"
 
 #. Type: select
 #. Choices
@@ -1963,6 +1966,13 @@ msgstr "バンコク"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:7001
+msgid "Barnaul"
+msgstr "バルナウル"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:7001
 msgid "Beirut"
 msgstr "ベイルート"
 
@@ -1985,7 +1995,7 @@ msgstr "ブルネイ"
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:7001
 msgid "Chita"
-msgstr ""
+msgstr "チタ"
 
 #. Type: select
 #. Choices
@@ -2362,7 +2372,7 @@ msgstr "シンガポール"
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:7001
 msgid "Srednekolymsk"
-msgstr ""
+msgstr "スレドネコリムスク"
 
 #. Type: select
 #. Choices
@@ -2412,6 +2422,13 @@ msgstr "ティンプー"
 #: ../tzdata.templates:7001
 msgid "Tokyo"
 msgstr "東京"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:7001
+msgid "Tomsk"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -2571,6 +2588,13 @@ msgstr "アンドラ"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:9001
+msgid "Astrakhan"
+msgstr "アストラハン"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:9001
 msgid "Athens"
 msgstr "アセンズ"
 
@@ -2699,6 +2723,13 @@ msgstr "カリーニングラード"
 #: ../tzdata.templates:9001
 msgid "Kiev"
 msgstr "キエフ"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:9001
+msgid "Kirov"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -2886,6 +2917,13 @@ msgstr "ティラスポリ"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:9001
+msgid "Ulyanovsk"
+msgstr "ウリヤノフスク"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:9001
 msgid "Uzhgorod"
 msgstr "ウジゴロド"
 
@@ -3048,7 +3086,7 @@ msgstr "オークランド"
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:11001
 msgid "Bougainville"
-msgstr ""
+msgstr "ブーゲンヴィル"
 
 #. Type: select
 #. Choices

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 2011i-2\n"
 "Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
-"POT-Creation-Date: 2015-10-08 14:48+0000\n"
+"POT-Creation-Date: 2016-04-20 20:30+0200\n"
 "PO-Revision-Date: 2013-12-24 23:13+0100\n"
 "Last-Translator: Agustí Grau <agusti@agustigrau.cat >\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
@@ -2061,6 +2061,13 @@ msgstr "Baku"
 msgid "Bangkok"
 msgstr "Bangkok"
 
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:7001
+msgid "Barnaul"
+msgstr ""
+
 # Gnome_2.16_Desktop [gnome-applets-locations.HEAD.ca.po]
 #. Type: select
 #. Choices
@@ -2547,6 +2554,13 @@ msgstr "Tòquio"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:7001
+msgid "Tomsk"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:7001
 msgid "Ujung_Pandang"
 msgstr "Ujung Pandang"
 
@@ -2706,6 +2720,16 @@ msgstr "Amsterdam"
 msgid "Andorra"
 msgstr "Andorra"
 
+# Projecte_Mandrake [tm-mandrake.po]
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:9001
+#, fuzzy
+#| msgid "Australia"
+msgid "Astrakhan"
+msgstr "Austràlia"
+
 # Gnome_2.16_Desktop [gnome-applets-locations.HEAD.ca.po]
 #. Type: select
 #. Choices
@@ -2852,6 +2876,13 @@ msgstr "Kaliningrad"
 #: ../tzdata.templates:9001
 msgid "Kiev"
 msgstr "Kíev"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:9001
+msgid "Kirov"
+msgstr ""
 
 # Gnome_2.16_Desktop [gnome-applets-locations.HEAD.ca.po]
 #. Type: select
@@ -3055,6 +3086,13 @@ msgstr "Tirane"
 #: ../tzdata.templates:9001
 msgid "Tiraspol"
 msgstr "Tiraspol"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:9001
+msgid "Ulyanovsk"
+msgstr ""
 
 #. Type: select
 #. Choices

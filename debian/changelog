@@ -1,3 +1,13 @@
+tzdata (2016d-0+deb8u1) stable; urgency=medium
+
+  * New upstream version, affecting the following future time stamps:
+    - America/Caracas.  Closes: #821147.
+    - Asia/Magadan
+    - Asia/Tomsk (new timezone).
+  * Update translations from the sid package.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Fri, 22 Apr 2016 15:32:01 +0200
+
 tzdata (2016c-0+deb8u1) stable; urgency=medium
 
   * New upstream version, affecting the following future time stamps:
