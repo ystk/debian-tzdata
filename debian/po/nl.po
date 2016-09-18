@@ -7,10 +7,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: tzdata 2011n-1\n"
+"Project-Id-Version: tzdata_2016d-2\n"
 "Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
 "POT-Creation-Date: 2016-04-20 20:30+0200\n"
-"PO-Revision-Date: 2016-03-31 13:09+0200\n"
+"PO-Revision-Date: 2016-04-25 10:51+0200\n"
 "Last-Translator: Frans Spiesschaert <Frans.Spiesschaert@yucom.be>\n"
 "Language-Team: Debian Dutch l10n Team <debian-l10n-dutch@lists.debian.org>\n"
 "Language: nl\n"
@@ -2426,7 +2426,7 @@ msgstr "Tokio"
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:7001
 msgid "Tomsk"
-msgstr ""
+msgstr "Tomsk"
 
 #. Type: select
 #. Choices
@@ -2727,7 +2727,7 @@ msgstr "Kiev"
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:9001
 msgid "Kirov"
-msgstr ""
+msgstr "Kirov"
 
 #. Type: select
 #. Choices

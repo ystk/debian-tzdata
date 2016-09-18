@@ -1,3 +1,19 @@
+tzdata (2016f-0+deb8u1) stable; urgency=medium
+
+  * New upstream version, affecting the following future time stamps:
+    - Africa/Cairo (DST starting on 2016-07-07 cancelled).
+    - Asia/Novosibirsk (on 2016-07-24)
+
+ -- Aurelien Jarno <aurel32@debian.org>  Tue, 05 Jul 2016 20:12:43 +0200
+
+tzdata (2016e-0+deb8u1) stable; urgency=medium
+
+  * New upstream version, affecting the following future time stamp:
+    - Africa/Cairo
+  * Update translations from the sid package.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sun, 26 Jun 2016 15:12:06 +0200
+
 tzdata (2016d-0+deb8u1) stable; urgency=medium
 
   * New upstream version, affecting the following future time stamps:
