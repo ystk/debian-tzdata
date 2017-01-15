@@ -1,3 +1,40 @@
+tzdata (2016j-0+deb8u1) stable; urgency=medium
+
+  * New upstream version, affecting the following future timestamp:
+    - Saratov, Russia switches from +03 to +04 on 2016-12-04 at 02:00.
+  * Update translations from the sid package.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Thu, 24 Nov 2016 23:23:42 +0100
+
+tzdata (2016i-0+deb8u1) stable; urgency=medium
+
+  * New upstream version, affecting the following past and future timestamps:
+    - Pacific/Tongatapu (DST starting on 2016-11-06 at 02:00).
+    - Northern Cyprus is now +03 year round, the Asia/Famagusta zone has
+      been added.
+    - Antarctica/Casey (switched from +08 to +11 on 2016-10-22).
+  * Update translations from the sid package.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sun, 06 Nov 2016 01:18:16 +0100
+
+tzdata (2016h-0+deb8u1) stable; urgency=medium
+
+  * New upstream version, affecting the following future timestamp:
+    - Asia/Gaza and Asia/Hebron (DST ending on 2016-10-29 at 01:00, not
+      2016-10-21 at 00:00).
+
+ -- Aurelien Jarno <aurel32@debian.org>  Fri, 21 Oct 2016 01:19:52 +0200
+
+tzdata (2016g-0+deb8u1) stable; urgency=medium
+
+  * New upstream version, affecting the following future time stamps:
+    - Europe/Istanbul switch from EET/EEST (+02/+03) to permanent +03 on
+      2016-09-07. While the timezone has changed, the divergence from
+      EET/EEST will happen on 2016-10-30.  Closes: #838781.
+    - New leap second 2016-12-31 23:59:60 UTC as per IERS Bulletin C 52.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Tue, 27 Sep 2016 23:50:25 +0200
+
 tzdata (2016f-0+deb8u1) stable; urgency=medium
 
   * New upstream version, affecting the following future time stamps:

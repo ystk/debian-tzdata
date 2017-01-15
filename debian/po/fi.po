@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tzdata_2007h-2\n"
 "Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
-"POT-Creation-Date: 2016-04-20 20:30+0200\n"
+"POT-Creation-Date: 2016-11-24 20:51+0100\n"
 "PO-Revision-Date: 2013-12-24 23:13+0100\n"
 "Last-Translator: Esko Arajärvi <edu@iki.fi>\n"
 "Language-Team: Finnish <debian-l10n-finnish@lists.debian.org>\n"
@@ -1941,6 +1941,13 @@ msgstr "Ašgabat"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:7001
+msgid "Atyrau"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:7001
 msgid "Baghdad"
 msgstr "Bagdad"
 
@@ -2055,6 +2062,13 @@ msgstr "Dubai"
 #: ../tzdata.templates:7001
 msgid "Dushanbe"
 msgstr "Dušanbe"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:7001
+msgid "Famagusta"
+msgstr ""
 
 #. Type: select
 #. Choices
@@ -2486,6 +2500,15 @@ msgstr "Jakutsk"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:7001
+#, fuzzy
+#| msgid "Rangoon"
+msgid "Yangon"
+msgstr "Yangôn"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:7001
 msgid "Yekaterinburg"
 msgstr "Jekaterinburg"
 
@@ -2867,6 +2890,15 @@ msgstr "San Marino"
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:9001
 msgid "Sarajevo"
+msgstr "Sarajevo"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:9001
+#, fuzzy
+#| msgid "Sarajevo"
+msgid "Saratov"
 msgstr "Sarajevo"
 
 #. Type: select
