@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
-"POT-Creation-Date: 2016-11-24 20:51+0100\n"
+"POT-Creation-Date: 2017-03-04 01:52+0100\n"
 "PO-Revision-Date: 2013-12-24 23:13+0100\n"
 "Last-Translator: Josip Rodin <joy+ditrans@linux.hr>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
@@ -1490,6 +1490,13 @@ msgstr "Porto_Velho"
 #: ../tzdata.templates:3001
 msgid "Puerto_Rico"
 msgstr "Portoriko"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:3001
+msgid "Punta_Arenas"
+msgstr ""
 
 #. Type: select
 #. Choices

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tzdata 2008i-2\n"
 "Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
-"POT-Creation-Date: 2016-11-24 20:51+0100\n"
+"POT-Creation-Date: 2017-03-04 01:52+0100\n"
 "PO-Revision-Date: 2014-08-01 04:20+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10n Turkish <debian-l10n-turkish@lists.debian.org>\n"
@@ -1467,6 +1467,13 @@ msgstr "Porto Velho"
 #: ../tzdata.templates:3001
 msgid "Puerto_Rico"
 msgstr "Porto Riko"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:3001
+msgid "Punta_Arenas"
+msgstr ""
 
 #. Type: select
 #. Choices

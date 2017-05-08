@@ -1,3 +1,21 @@
+tzdata (2017b-0+deb8u1) stable; urgency=medium
+
+  * New upstream version, affecting the following future timestamp:
+    - Haiti resumed observance of DST in 2017.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Thu, 06 Apr 2017 11:53:44 +0200
+
+tzdata (2017a-0+deb8u1) stable; urgency=medium
+
+  * New upstream version, affecting the following future timestamp:
+    - Mongolia no longer observes DST.
+    - Magallanes region diverges from Santiago starting 2017-05-13,
+      the America/Punta_Arenas zone has been added.
+  * Allow partially translated choices in debconf templates.
+  * Update translations from the sid package.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sun, 12 Mar 2017 22:27:35 +0100
+
 tzdata (2016j-0+deb8u1) stable; urgency=medium
 
   * New upstream version, affecting the following future timestamp:

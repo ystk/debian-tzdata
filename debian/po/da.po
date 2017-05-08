@@ -1,14 +1,14 @@
 # Danish messages for the tzdata.
-# Copyright (C) 2016 tzdata & nedenstående oversættere.
+# Copyright (C) 2017 tzdata & nedenstående oversættere.
 # This file is distributed under the same license as the tzdata package.
-# Joe Hansen <joedalton2@yahoo.dk>, 2010, 2011, 2013, 2016.
+# Joe Hansen <joedalton2@yahoo.dk>, 2010, 2011, 2013, 2016, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: tzdata\n"
 "Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
-"POT-Creation-Date: 2016-11-24 20:51+0100\n"
-"PO-Revision-Date: 2016-07-09 23:13+0100\n"
+"POT-Creation-Date: 2017-03-04 01:52+0100\n"
+"PO-Revision-Date: 2017-03-12 18:21+0100\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <debian-l10n-danish@lists.debian.org> \n"
 "Language: da\n"
@@ -1470,6 +1470,13 @@ msgstr "Puerto Rico"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:3001
+msgid "Punta_Arenas"
+msgstr ""
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:3001
 msgid "Rainy_River"
 msgstr "Rainy River"
 
@@ -1933,7 +1940,7 @@ msgstr "Ashgabat"
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:7001
 msgid "Atyrau"
-msgstr ""
+msgstr "Atyrau"
 
 #. Type: select
 #. Choices
@@ -2059,7 +2066,7 @@ msgstr "Dushanbe"
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:7001
 msgid "Famagusta"
-msgstr ""
+msgstr "Famagusta"
 
 #. Type: select
 #. Choices
@@ -2491,10 +2498,8 @@ msgstr "Jakutsk"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:7001
-#, fuzzy
-#| msgid "Rangoon"
 msgid "Yangon"
-msgstr "Rangoon"
+msgstr "Yangon"
 
 #. Type: select
 #. Choices
@@ -2886,10 +2891,8 @@ msgstr "Sarajevo"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:9001
-#, fuzzy
-#| msgid "Sarajevo"
 msgid "Saratov"
-msgstr "Sarajevo"
+msgstr "Saratov"
 
 #. Type: select
 #. Choices

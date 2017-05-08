@@ -94,6 +94,7 @@ endif
 	    echo "Template: tzdata/Zones/$$i" ; \
 	    echo "Type: select" ; \
 	    echo "# Translators: do not translate underscores. You can use spaces instead." ; \
+	    echo "#flag:partial" ; \
 	    if [ "$$i" = "Etc" ] || [ "$$i" = "SystemV" ] ; then \
 		    echo -n "Choices: " ; \
 	    else \
