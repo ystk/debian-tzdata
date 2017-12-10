@@ -1,3 +1,16 @@
+tzdata (2017c-0+deb8u1) jessie; urgency=medium
+
+  * New upstream version, affecting the following future timestamp:
+    - Northern Cyprus resumed EU rules starting 2017-10-29.
+    - Namibia will switch from +01 with DST to +02 all year, affecting
+      UT offsets starting 2018-04-01.
+    - Sudan will switch from +03 to +02 on 2017-11-01.
+    - Tonga will not observe DST on 2017-11-05.
+    - Turks & Caicos will switch from -04 all year to -05 with US DST,
+      affecting UT offset starting 2018-11-04.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Wed, 25 Oct 2017 01:27:56 +0200
+
 tzdata (2017b-0+deb8u1) stable; urgency=medium
 
   * New upstream version, affecting the following future timestamp:
