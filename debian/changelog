@@ -1,3 +1,25 @@
+tzdata (2018e-0+deb8u1) jessie; urgency=medium
+
+  [ Aurelien Jarno ]
+  * New upstream version, affecting the following future timestamp:
+    - North Korea switches back to +09 on 2018-05-05.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Fri, 04 May 2018 20:34:02 +0200
+
+tzdata (2018d-0+deb8u1) jessie; urgency=medium
+
+  * New upstream version.
+
+ -- Clint Adams <clint@debian.org>  Mon, 26 Mar 2018 18:49:18 -0400
+
+tzdata (2018c-0+deb8u1) jessie; urgency=medium
+
+  * New upstream version, affecting the following past and future timestamps:
+    - São Tomé and Príncipe switched from +00 to +01 on 2018-01-01 at 01:00.
+    - Southern Brazil will begin DST on 2018-11-04 instead of 2018-10-21.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Sat, 10 Feb 2018 12:58:33 +0100
+
 tzdata (2017c-0+deb8u1) jessie; urgency=medium
 
   * New upstream version, affecting the following future timestamp:
