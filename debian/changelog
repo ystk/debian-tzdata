@@ -1,3 +1,15 @@
+tzdata (2018g-0+deb8u1) jessie-security; urgency=medium
+
+  * Non-maintainer upload by the LTS Team.
+  * Update to latest upstream version, affecting the following past and
+    future timestamps:
+    - Morocco switched to permanent +01 on 2018-10-27.
+    - Volgograd moved from +03 to +04 on 2018-10-28.
+    - Fiji ends DST 2019-01-13, not 2019-01-20.
+    - Most of Chile changes DST dates, effective 2019-04-06.
+
+ -- Santiago Ruano Rincón <santiagorr@riseup.net>  Wed, 31 Oct 2018 09:05:21 +0100
+
 tzdata (2018e-0+deb8u1) jessie; urgency=medium
 
   [ Aurelien Jarno ]
