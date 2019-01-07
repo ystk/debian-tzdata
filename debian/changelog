@@ -1,3 +1,14 @@
+tzdata (2018i-0+deb8u1) jessie-security; urgency=medium
+
+  * New upstream release:
+    - Qyzylorda, Kazakhstan moved from +06 to +05 on 2018-12-21. A new
+      zone Asia/Qostanay has been added, because Qostanay, Kazakhstan
+      didn't move.
+    - Metlakatla, Alaska observes PST this winter only.
+    - São Tomé and Príncipe switches from +01 to +00 on 2019-01-01.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Wed, 02 Jan 2019 17:17:27 +0100
+
 tzdata (2018g-0+deb8u1) jessie-security; urgency=medium
 
   * Non-maintainer upload by the LTS Team.
