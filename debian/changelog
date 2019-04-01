@@ -1,3 +1,13 @@
+tzdata (2019a-0+deb8u1) jessie-security; urgency=medium
+
+  * New upstream version, affecting the following past timestamps:
+    - Palestine will not start DST until 2019-03-30, instead of 2019-03-23
+      as previously predicted.
+    - Metlakatla ended its observance of Pacific standard time, rejoining
+      Alaska Time, on 2019-01-20 at 02:00.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Mon, 01 Apr 2019 10:54:44 +0200
+
 tzdata (2018i-0+deb8u1) jessie-security; urgency=medium
 
   * New upstream release:
