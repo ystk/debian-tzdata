@@ -1,3 +1,14 @@
+tzdata (2019c-0+deb8u1) jessie-security; urgency=medium
+
+  * New upstream version, affecting the following future timestamps:
+    - Brazil has canceled DST and will stay on standard time indefinitely.
+    - Fiji's next DST transitions will be 2019-11-10 and 2020-01-12
+      instead of 2019-11-03 and 2020-01-19.
+    - Norfolk Island will observe Australian-style DST starting in
+      spring 2019. The first transition is on 2019-10-06.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 11 Oct 2019 13:24:19 +0200
+
 tzdata (2019a-0+deb8u1) jessie-security; urgency=medium
 
   * New upstream version, affecting the following past timestamps:
