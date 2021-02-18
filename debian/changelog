@@ -1,3 +1,42 @@
+tzdata (2021a-0+deb8u1) jessie-security; urgency=medium
+
+  * New upstream version, affecting the following timestamp:
+    - South Sudan changes from +03 to +02 on 2021-02-01.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Mon, 01 Feb 2021 13:02:10 +0100
+
+tzdata (2020e-0+deb8u1) jessie-security; urgency=medium
+
+  * New upstream version, affecting the following timestamp:
+    - Volgograd switched to Moscow time on 2020-12-27 at 02:00.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Tue, 29 Dec 2020 19:09:07 +0100
+
+tzdata (2020d-0+deb8u1) jessie-security; urgency=high
+
+  * Non-maintainer upload by the ELTS team.
+  * New upstream release.
+    - Revised predictions for Morocco's changes starting in 2023.
+    - Macquarie Island has stayed in sync with Tasmania since 2011.
+    - Casey, Antarctica is at +08 in winter and +11 in summer since 2018.
+    - Palestine ends DST earlier than predicted, on 2020-10-24.
+    - Fiji starts DST later than usual, on 2020-12-20.
+  * Restore the pacificnew and systemv files that have been removed
+    upstream. The corresponding timezones have been removed from the
+    bullseye/sid package, with the switch to the new names handle by the
+    maintainer scripts. However we do not want to transition to the new
+    names in a stable release.
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Mon, 09 Nov 2020 17:39:16 +0530
+
+tzdata (2020a-0+deb8u1) jessie-security; urgency=medium
+
+  * New upstream version, affecting the following future timestamps:
+    - Morocco springs forward on 2020-05-31, not 2020-05-24.
+    - Canada's Yukon advanced to -07 year-round on 2020-03-08.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Wed, 08 Jul 2020 10:17:24 +0200
+
 tzdata (2019c-0+deb8u1) jessie-security; urgency=medium
 
   * New upstream version, affecting the following future timestamps:

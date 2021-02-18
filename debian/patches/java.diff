@@ -1,5 +1,5 @@
---- tzdata.orig/gmt	1970-01-01 01:00:00.000000000 +0100
-+++ tzdata/gmt	2008-07-31 13:52:42.000000000 +0200
+--- /dev/null
++++ b/gmt
 @@ -0,0 +1,27 @@
 +#
 +# Copyright 2000-2005 Sun Microsystems, Inc.  All Rights Reserved.
@@ -28,8 +28,8 @@
 +
 +# Zone	NAME		GMTOFF	RULES	FORMAT	[UNTIL]
 +Zone	GMT		0:00	-	GMT
---- tzdata.orig/jdk11_backward	1970-01-01 01:00:00.000000000 +0100
-+++ tzdata/jdk11_backward	2008-07-31 13:52:42.000000000 +0200
+--- /dev/null
++++ b/jdk11_backward
 @@ -0,0 +1,80 @@
 +#
 +# Copyright 2000-2006 Sun Microsystems, Inc.  All Rights Reserved.
@@ -111,8 +111,8 @@
 +Zone	SystemV/PST8	-8:00	-		PST
 +Zone	SystemV/YST9	-9:00	-		YST
 +Zone	SystemV/HST10	-10:00	-		HST
---- tzdata.orig/jdk11_full_backward	1970-01-01 01:00:00.000000000 +0100
-+++ tzdata/jdk11_full_backward	2008-07-31 13:52:42.000000000 +0200
+--- /dev/null
++++ b/jdk11_full_backward
 @@ -0,0 +1,93 @@
 +#
 +# Copyright 2001-2006 Sun Microsystems, Inc.  All Rights Reserved.
