@@ -1,3 +1,17 @@
+tzdata (2021a-0+deb8u2) jessie-security; urgency=medium
+
+  * Cherry-pick patches from 2021a-0+deb10u2 and 2021a-0+deb10u3 (tzdata
+    2021b-2021e), thanks Aurelien Jarno:
+    - 04-fiji-dst.patch: Fiji suspends DST for the 2021/2022 season.
+    - 05-palestine-dst.patch: Palestine will fall back 2021-10-29 (not
+      2021-10-30) at 01:00.
+    - 01-no-leap-second-2021-12-31.patch: No leap second on 2021-12-31 as per
+      IERS Bulletin C 62.
+    - 02-samoa-dst.patch: Samoa no longer observes DST.
+    - 03-jordan-dst.patch: Jordan now starts DST on February's last Thursday.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 29 Oct 2021 11:15:14 +0200
+
 tzdata (2021a-0+deb8u1) jessie-security; urgency=medium
 
   * New upstream version, affecting the following timestamp:
