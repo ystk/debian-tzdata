@@ -1,0 +1,128 @@
+commit 59467e3373a2f90aae3a3c9684ab527855922427
+Author: Paul Eggert <eggert@cs.ucla.edu>
+Date:   Sun Oct 24 06:02:17 2021 -0700
+
+    Improve Palestine predictions for 2025 and later
+    
+    * NEWS: Mention this.
+    * asia (Palestine): Guess Fri>=23, not lastFri, for fallback
+    transitions in the future.  Fri>=23 is more consistent with past
+    practice than lastFri.  The first differing prediction is a
+    fallback on 2025-10-24, not 2025-10-31.
+
+diff --git a/NEWS b/NEWS
+--- a/NEWS
++++ b/NEWS
+@@ -1,6 +1,11 @@
+
+   Changes to future timestamps
+ 
++    Predict Palestine fallbacks to be the first Friday on or after
++    October 23, not October's last Friday, to be more consistent with
++    past practice.  The first differing prediction is a fallback on
++    2025-10-24, not 2025-10-31.
++
+     Palestine will fall back 10-29 (not 10-30) at 01:00.
+     (Thanks to P Chan and Heba Hemad.)
+
+diff --git a/asia b/asia
+--- a/asia
++++ b/asia
+@@ -3445,7 +3445,7 @@ Rule Palestine	2019	only	-	Mar	29	0:00	1:00	S
+ Rule Palestine	2019	only	-	Oct	Sat>=24	0:00	0	-
+ Rule Palestine	2020	max	-	Mar	Sat>=24	0:00	1:00	S
+ Rule Palestine	2020	only	-	Oct	24	1:00	0	-
+-Rule Palestine	2021	max	-	Oct	lastFri	1:00	0	-
++Rule Palestine	2021	max	-	Oct	Fri>=23	1:00	0	-
+ 
+ # Zone	NAME		STDOFF	RULES	FORMAT	[UNTIL]
+ Zone	Asia/Gaza	2:17:52	-	LMT	1900 Oct
+commit 0b13c6b41d3e9439548f9b353fe57278c3ad766b
+Author: Tim Parenti <tim@timtimeonline.com>
+Date:   Mon Oct 25 14:19:11 2021 -0400
+
+    Update Palestine commentary
+    
+    * asia: Match the predictions in the "Rule Palestine" lines.
+
+diff --git a/asia b/asia
+--- a/asia
++++ b/asia
+@@ -3406,8 +3406,9 @@ Zone	Asia/Karachi	4:28:12 -	LMT	1907
+ # ... winter time will begin in Palestine from Friday 10-29, 01:00 AM
+ # by 60 minutes backwards.
+ #
+-# From Paul Eggert (2021-10-20):
+-# Guess future fall transitions on October's last Friday at 01:00.
++# From Tim Parenti (2021-10-25), per Paul Eggert (2021-10-24):
++# Guess future fall transitions at 01:00 on the Friday preceeding October's
++# last Sunday (i.e., Fri>=23), as this is more consistent with recent practice.
+ 
+ # Rule	NAME	FROM	TO	-	IN	ON	AT	SAVE	LETTER/S
+ Rule EgyptAsia	1957	only	-	May	10	0:00	1:00	S
+commit 1a4a7eab60b169d1c94b9ea387926a6827701a21
+Author: Paul Eggert <eggert@cs.ucla.edu>
+Date:   Mon Oct 25 11:54:03 2021 -0700
+
+    spelling fix
+
+diff --git a/asia b/asia
+--- a/asia
++++ b/asia
+@@ -3407,7 +3407,7 @@ Zone	Asia/Karachi	4:28:12 -	LMT	1907
+ # by 60 minutes backwards.
+ #
+ # From Tim Parenti (2021-10-25), per Paul Eggert (2021-10-24):
+-# Guess future fall transitions at 01:00 on the Friday preceeding October's
++# Guess future fall transitions at 01:00 on the Friday preceding October's
+ # last Sunday (i.e., Fri>=23), as this is more consistent with recent practice.
+ 
+ # Rule	NAME	FROM	TO	-	IN	ON	AT	SAVE	LETTER/S
+commit f4b156691e1dcf23f35eb8ce018d468983a17bec
+Author: Paul Eggert <eggert@cs.ucla.edu>
+Date:   Thu Mar 10 11:21:39 2022 -0800
+
+    Palestine springs forward a day later
+    
+    * asia (Palestine): Update spring-forward rule to first Sunday
+    on or after March 25, starting in 2022.  (Thanks to Heba Hamad.)
+
+diff --git a/NEWS b/NEWS
+--- a/NEWS
++++ b/NEWS
+@@ -4,6 +4,10 @@ Unreleased, experimental changes
+ 
+   Changes to future timestamps
+ 
++    Palestine will spring forward on 2022-03-27, not 2022-03-26.
++    (Thanks to Heba Hamad.)  Predict future transitions for first
++    Sunday >= March 25.
++
+     Predict Palestine fallbacks to be the first Friday on or after
+     October 23, not October's last Friday, to be more consistent with
+     past practice.  The first differing prediction is a fallback on
+diff --git a/asia b/asia
+--- a/asia
++++ b/asia
+@@ -3410,6 +3410,9 @@ Zone	Asia/Karachi	4:28:12 -	LMT	1907
+ # Guess future fall transitions at 01:00 on the Friday preceding October's
+ # last Sunday (i.e., Fri>=23), as this is more consistent with recent practice.
+ 
++# From Heba Hamad (2022-03-10):
++# summer time will begin in Palestine from Sunday 03-27-2022, 00:00 AM.
++
+ # Rule	NAME	FROM	TO	-	IN	ON	AT	SAVE	LETTER/S
+ Rule EgyptAsia	1957	only	-	May	10	0:00	1:00	S
+ Rule EgyptAsia	1957	1958	-	Oct	 1	0:00	0	-
+@@ -3444,9 +3447,10 @@ Rule Palestine	2016	2018	-	Mar	Sat>=24	1:00	1:00	S
+ Rule Palestine	2016	2018	-	Oct	Sat>=24	1:00	0	-
+ Rule Palestine	2019	only	-	Mar	29	0:00	1:00	S
+ Rule Palestine	2019	only	-	Oct	Sat>=24	0:00	0	-
+-Rule Palestine	2020	max	-	Mar	Sat>=24	0:00	1:00	S
++Rule Palestine	2020	2021	-	Mar	Sat>=24	0:00	1:00	S
+ Rule Palestine	2020	only	-	Oct	24	1:00	0	-
+ Rule Palestine	2021	max	-	Oct	Fri>=23	1:00	0	-
++Rule Palestine	2022	max	-	Mar	Sun>=25	0:00	1:00	S
+ 
+ # Zone	NAME		STDOFF	RULES	FORMAT	[UNTIL]
+ Zone	Asia/Gaza	2:17:52	-	LMT	1900 Oct

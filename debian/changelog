@@ -1,3 +1,11 @@
+tzdata (2021a-0+deb8u3) jessie-security; urgency=medium
+
+  * Cherry-pick patches from 2021a-0+deb9u3 (tzdata 2022a):
+   - 06-palestine-dst2.patch: Palestine will spring forward on 2022-03-27,
+     not -03-26.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Tue, 29 Mar 2022 11:40:00 +0200
+
 tzdata (2021a-0+deb8u2) jessie-security; urgency=medium
 
   * Cherry-pick patches from 2021a-0+deb10u2 and 2021a-0+deb10u3 (tzdata
