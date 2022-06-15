@@ -1,0 +1,36 @@
+commit 9c8cb5d7635bf0ff3ef3d1e836d77d29fd9ae18f
+Author: Tim Parenti <tim@timtimeonline.com>
+Date:   Mon Jan 10 22:00:45 2022 -0500
+
+    No leap second on 2022-06-30
+    
+    Per IERS Bulletin C 63 (2022-01-05).
+    https://hpiers.obspm.fr/iers/bul/bulc/bulletinc.63
+    
+    * leap-seconds.list: Update file from NIST, retrieved from
+    ftp://ftp.boulder.nist.gov/pub/time/leap-seconds.list
+
+diff --git a/leap-seconds.list b/leap-seconds.list
+index cfda3e8..0f43115 100644
+--- a/leap-seconds.list
++++ b/leap-seconds.list
+@@ -204,10 +204,10 @@
+ #	current -- the update time stamp, the data and the name of the file
+ #	will not change.
+ #
+-#	Updated through IERS Bulletin C62
+-#	File expires on:  28 June 2022
++#	Updated through IERS Bulletin C63
++#	File expires on:  28 December 2022
+ #
+-#@	3865363200
++#@	3881174400
+ #
+ 2272060800	10	# 1 Jan 1972
+ 2287785600	11	# 1 Jul 1972
+@@ -252,4 +252,4 @@
+ #	the hash line is also ignored in the
+ #	computation.
+ #
+-#h 	599d45bf accd4b4f 8b60e46 49b623 7d13b825
++#h 	732b2044 5863a938 b7e43179 1339c710 ded63837
