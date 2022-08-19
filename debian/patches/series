@@ -1,6 +1,5 @@
 pacificnew.diff -p1
 systemv.diff -p1
-java.diff -p1
 01-no-leap-second-2021-12-31.patch
 02-samoa-dst.patch
 03-jordan-dst.patch
@@ -8,3 +7,5 @@ java.diff -p1
 05-palestine-dst.patch
 06-palestine-dst2.patch
 07-no-leap-second-2022-06-30.patch
+08-iran-dst.patch
+09-chile-dst.patch

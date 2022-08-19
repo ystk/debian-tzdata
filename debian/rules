@@ -7,12 +7,9 @@ export LC_ALL=C
 DEB_HOST_ARCH ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
 
 TZGEN := $(CURDIR)/tzgen
-TZGEN_JAVA := $(CURDIR)/tzgen-java
 
 VERSION := $(shell dpkg-parsechangelog | sed -e '/^Version/!d;s/^Version: //g;s/.*://g;s/-.*//g')
 EMDEBIAN := $(shell dpkg-parsechangelog | egrep '^Version: .*em[0-9]+')
-
-JHOME := /usr/lib/jvm/default-java/
 
 TIMEZONES := africa \
              antarctica \
@@ -26,9 +23,6 @@ TIMEZONES := africa \
              backward \
              systemv \
 	     pacificnew
-
-TIMEZONES_JAVA := gmt \
-                  jdk11_backward
 
 TEMPLATES_FILE := $(CURDIR)/debian/tzdata.templates
 TEMPLATES_AREAS := Africa \
@@ -72,9 +66,6 @@ endif
 	rdfind -outputname /dev/null -makesymlinks true -removeidentinode false $(TZGEN)
 	symlinks -r -s -c $(TZGEN)
 
-	# Generate a java version
-	$(JHOME)/bin/java -jar $(JHOME)/jre/lib/javazic.jar -V $(VERSION) -d $(TZGEN_JAVA) $(TIMEZONES) $(TIMEZONES_JAVA)
-
 	# Generate the templates file
 	( echo "Template: tzdata/Areas" ; \
 	echo "Type: select" ; \
@@ -115,7 +106,7 @@ endif
 clean:
 	dh_testdir
 	dh_testroot
-	-rm -rf $(TZGEN) $(TZGEN_JAVA)
+	-rm -rf $(TZGEN)
 	rm -f build-indep-stamp
 	rm -f patch-log
 	dh_clean

@@ -1,3 +1,13 @@
+tzdata (2021a-0+deb8u5) jessie; urgency=medium
+
+  * Cherry-pick patches from upstream (thanks Aurelien Jarno):
+    - Iran plans to stop observing DST permanently, after it falls back
+      on 2022-09-21.
+    - Chile's 2022 DST start is delayed from September 4 to September 11.
+  * Remove tzdata-java now that we no longer support Java 7.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 19 Aug 2022 11:16:23 +0200
+
 tzdata (2021a-0+deb8u4) jessie-security; urgency=medium
 
   * Cherry-pick patches from upstream (thanks Aurelien Jarno):

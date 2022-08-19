@@ -2,7 +2,7 @@ Source: tzdata
 Section: localization
 Priority: required
 Build-Depends: debhelper (>= 5.0.0)
-Build-Depends-Indep: po-debconf, default-jre-headless, rdfind, symlinks
+Build-Depends-Indep: po-debconf, rdfind, symlinks
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Uploaders: Clint Adams <clint@debian.org>, Aurelien Jarno <aurel32@debian.org>, Adam Conrad <adconrad@0c3.net>
 Standards-Version: 3.9.6
@@ -20,18 +20,3 @@ Description: time zone and daylight-saving time data
  globe. It is updated periodically to reflect changes made by
  political bodies to time zone boundaries, UTC offsets, and
  daylight-saving rules.
-
-Package: tzdata-java
-Architecture: all
-Section: java
-Priority: optional
-Multi-Arch: foreign
-Depends: ${misc:Depends}, tzdata (= ${binary:Version})
-Description: time zone and daylight-saving time data for use by java runtimes
- This package contains data required for the implementation of
- standard local time for many representative locations around the
- globe. It is updated periodically to reflect changes made by
- political bodies to time zone boundaries, UTC offsets, and
- daylight-saving rules.
- .
- This package contains the data for use by Java runtimes.
