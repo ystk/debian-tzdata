@@ -1,3 +1,13 @@
+tzdata (2021a-0+deb8u6) jessie; urgency=medium
+
+  * Cherry-pick patches from upstream (thanks Aurelien Jarno):
+    - 10-no-leap-second-2022-12-31.patch: update leap-seconds.list, new
+      expiration date on 28 June 2023.
+    - 11-palestine-dst3.patch: Palestine transitions are now Saturdays at
+      02:00. This means 2022 falls back 10-29 at 02:00, not 10-28 at 01:00.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Mon, 03 Oct 2022 13:11:37 +0200
+
 tzdata (2021a-0+deb8u5) jessie; urgency=medium
 
   * Cherry-pick patches from upstream (thanks Aurelien Jarno):

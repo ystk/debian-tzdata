@@ -9,3 +9,5 @@ systemv.diff -p1
 07-no-leap-second-2022-06-30.patch
 08-iran-dst.patch
 09-chile-dst.patch
+10-no-leap-second-2022-12-31.patch
+11-palestine-dst3.patch
