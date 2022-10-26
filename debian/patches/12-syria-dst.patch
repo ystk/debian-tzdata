@@ -1,0 +1,63 @@
+commit 59aa97e8e9e3744a06cb004946a104824a5234c2
+Author: Paul Eggert <eggert@cs.ucla.edu>
+Date:   Wed Oct 5 17:17:05 2022 -0700
+
+    Syria to switch from +02/+03 with DST to plain +03
+    
+    * NEWS: Mention this.
+    * asia (Syria, Asia/Damascus): Go to year-round +03,
+    effective when the fallback would have occurred.
+    (Thanks to Steffen Thorsen.)
+
+diff --git a/NEWS b/NEWS
+index c7f3a897..b3dfc940 100644
+--- a/NEWS
++++ b/NEWS
+@@ -4,6 +4,10 @@ News for the tz database
+
+   Changes to future timestamps
+
++    Syria is abandoning the DST regime and is changing to permanent
++    +03, so it will not fall back from +03 to +02 on 2022-10-28.
++    (Thanks to Steffen Thorsen.)
++
+     Palestine now springs forward and falls back at 02:00 on the first
+     Saturday on or after March 24 and October 24, respectively.  This
+     this means 2022 falls back 10-29 at 02:00, not 10-28 at 01:00.
+diff --git a/asia b/asia
+index e0daae0c..23366df6 100644
+--- a/asia
++++ b/asia
+@@ -3815,19 +3815,27 @@ Rule	Syria	2007	only	-	Nov	 Fri>=1	0:00	0	-
+ # Our brief summary:
+ # https://www.timeanddate.com/news/time/syria-dst-2012.html
+ 
+-# From Arthur David Olson (2012-03-27):
+-# Assume last Friday in March going forward XXX.
++# From Steffen Thorsen (2022-10-05):
++# Syria is adopting year-round DST, starting this autumn....
++# From https://www.enabbaladi.net/archives/607812
++# "This [the decision] came after the weekly government meeting today,
++# Tuesday 4 October ..."
++#
++# From Paul Eggert (2022-10-05):
++# Model this as a transition from EEST +03 (DST) to plain +03
++# (non-DST) at the point where DST would otherwise have ended.
+ 
+ Rule	Syria	2008	only	-	Apr	Fri>=1	0:00	1:00	S
+ Rule	Syria	2008	only	-	Nov	1	0:00	0	-
+ Rule	Syria	2009	only	-	Mar	lastFri	0:00	1:00	S
+ Rule	Syria	2010	2011	-	Apr	Fri>=1	0:00	1:00	S
+-Rule	Syria	2012	max	-	Mar	lastFri	0:00	1:00	S
+-Rule	Syria	2009	max	-	Oct	lastFri	0:00	0	-
++Rule	Syria	2012	2022	-	Mar	lastFri	0:00	1:00	S
++Rule	Syria	2009	2022	-	Oct	lastFri	0:00	0	-
+ 
+ # Zone	NAME		STDOFF	RULES	FORMAT	[UNTIL]
+ Zone	Asia/Damascus	2:25:12 -	LMT	1920 # Dimashq
+-			2:00	Syria	EE%sT
++			2:00	Syria	EE%sT	2022 Oct 28 0:00
++			3:00	-	+03
+ 
+ # Tajikistan
+ # From Shanks & Pottenger.

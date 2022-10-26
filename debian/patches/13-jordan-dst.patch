@@ -1,0 +1,95 @@
+commit 3aa74b7f79a3df2f92b563a515a7e24fa175a2eb
+Author: Paul Eggert <eggert@cs.ucla.edu>
+Date:   Wed Oct 5 17:55:04 2022 -0700
+
+    Jordan to switch from +02/+03 with DST to plain +03
+    
+    * NEWS: Mention this.
+    * asia (Jordan, Asia/Amman): Go to year-round +03,
+    effective when the fallback would have occurred.
+    (Thanks to Issam Al-Zuwairi.)
+
+diff --git a/NEWS b/NEWS
+index b3dfc940..5db924a3 100644
+--- a/NEWS
++++ b/NEWS
+@@ -4,9 +4,9 @@ News for the tz database
+ 
+   Changes to future timestamps
+ 
+-    Syria is abandoning the DST regime and is changing to permanent
+-    +03, so it will not fall back from +03 to +02 on 2022-10-28.
+-    (Thanks to Steffen Thorsen.)
++    Jordan and Syria are abandoning the DST regime and are changing to
++    permanent +03, so they will not fall back from +03 to +02 on
++    2022-10-28.  (Thanks to Steffen Thorsen and Issam Al-Zuwairi.)
+ 
+     Palestine now springs forward and falls back at 02:00 on the first
+     Saturday on or after March 24 and October 24, respectively.  This
+diff --git a/asia b/asia
+index 23366df6..90bc4e9e 100644
+--- a/asia
++++ b/asia
+@@ -2231,6 +2231,15 @@ Zone	Asia/Tokyo	9:18:59	-	LMT	1887 Dec 31 15:00u
+ # From the Arabic version, it seems to say it would be at midnight
+ # (assume 24:00) on the last Thursday in February, starting from 2022.
+ 
++# From Issam Al-Zuwairi (2022-10-05):
++# The Council of Ministers in Jordan decided Wednesday 5th October 2022,
++# that daylight saving time (DST) will be throughout the year....
++# https://en.royanews.tv/news/37769/2022-10-05
++#
++# From Paul Eggert (2022-10-05):
++# Like Syria, model this as a transition from EEST +03 (DST) to plain +03
++# (non-DST) at the point where DST would otherwise have ended.
++
+ # Rule	NAME	FROM	TO	-	IN	ON	AT	SAVE	LETTER/S
+ Rule	Jordan	1973	only	-	Jun	6	0:00	1:00	S
+ Rule	Jordan	1973	1975	-	Oct	1	0:00	0	-
+@@ -2262,11 +2271,12 @@ Rule	Jordan	2005	only	-	Sep	lastFri	0:00s	0	-
+ Rule	Jordan	2006	2011	-	Oct	lastFri	0:00s	0	-
+ Rule	Jordan	2013	only	-	Dec	20	0:00	0	-
+ Rule	Jordan	2014	2021	-	Mar	lastThu	24:00	1:00	S
+-Rule	Jordan	2014	max	-	Oct	lastFri	0:00s	0	-
+-Rule	Jordan	2022	max	-	Feb	lastThu	24:00	1:00	S
++Rule	Jordan	2014	2022	-	Oct	lastFri	0:00s	0	-
++Rule	Jordan	2022	only	-	Feb	lastThu	24:00	1:00	S
+ # Zone	NAME		STDOFF	RULES	FORMAT	[UNTIL]
+ Zone	Asia/Amman	2:23:44 -	LMT	1931
+-			2:00	Jordan	EE%sT
++			2:00	Jordan	EE%sT	2022 Oct 28 0:00s
++			3:00	-	+03
+ 
+ 
+ # Kazakhstan
+@@ -3822,7 +3832,7 @@ Rule	Syria	2007	only	-	Nov	 Fri>=1	0:00	0	-
+ # Tuesday 4 October ..."
+ #
+ # From Paul Eggert (2022-10-05):
+-# Model this as a transition from EEST +03 (DST) to plain +03
++# Like Jordan, model this as a transition from EEST +03 (DST) to plain +03
+ # (non-DST) at the point where DST would otherwise have ended.
+ 
+ Rule	Syria	2008	only	-	Apr	Fri>=1	0:00	1:00	S
+
+commit 842ad565dcfaa13dd02609ad2390852d52b619e5
+Author: Paul Eggert <eggert@cs.ucla.edu>
+Date:   Thu Oct 6 10:09:52 2022 -0700
+
+    Add Jordan URL from Brian Inglis
+
+diff --git a/asia b/asia
+index 90bc4e9e..af1b822c 100644
+--- a/asia
++++ b/asia
+@@ -2234,7 +2234,9 @@ Zone	Asia/Tokyo	9:18:59	-	LMT	1887 Dec 31 15:00u
+ # From Issam Al-Zuwairi (2022-10-05):
+ # The Council of Ministers in Jordan decided Wednesday 5th October 2022,
+ # that daylight saving time (DST) will be throughout the year....
+-# https://en.royanews.tv/news/37769/2022-10-05
++#
++# From Brian Inglis (2022-10-06):
++# https://petra.gov.jo/Include/InnerPage.jsp?ID=45567&lang=en&name=en_news
+ #
+ # From Paul Eggert (2022-10-05):
+ # Like Syria, model this as a transition from EEST +03 (DST) to plain +03

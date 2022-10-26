@@ -1,3 +1,16 @@
+tzdata (2021a-0+deb8u7) jessie; urgency=medium
+
+  * Cherry-pick patches from upstream (thanks Aurelien Jarno):
+    - 12-syria-dst.patch: Syria is abandoning the DST regime and is
+      changing to permanent +03, so it will not fall back from +03 to
+      +02 on 2022-10-28.
+    - 13-jordan-dst.patch: Jordan is abandoning the DST regime and are
+      changing to permanent +03, so it will not fall back from +03 to
+      +02 on 2022-10-28.
+  * Build tzdata-java again, using openjdk-7.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Wed, 26 Oct 2022 18:46:02 +0200
+
 tzdata (2021a-0+deb8u6) jessie; urgency=medium
 
   * Cherry-pick patches from upstream (thanks Aurelien Jarno):
