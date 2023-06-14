@@ -4,7 +4,10 @@ Priority: required
 Build-Depends: debhelper (>= 5.0.0)
 Build-Depends-Indep: po-debconf, openjdk-7-jre-headless, rdfind, symlinks
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
-Uploaders: Clint Adams <clint@debian.org>, Aurelien Jarno <aurel32@debian.org>, Adam Conrad <adconrad@0c3.net>
+Uploaders: Clint Adams <clint@debian.org>,
+           Aurelien Jarno <aurel32@debian.org>,
+           Adam Conrad <adconrad@0c3.net>,
+           Emilio Pozuelo Monfort <pochu@debian.org>,
 Standards-Version: 3.9.6
 Homepage: http://www.iana.org/time-zones
 

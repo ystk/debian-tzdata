@@ -1,0 +1,89 @@
+commit 2050724fa1144bacb0d35c7cd9b862da858406c4
+Author: Paul Eggert <eggert@cs.ucla.edu>
+Date:   Fri Oct 28 17:57:48 2022 -0700
+
+    Most of Mexico will no longer observe DST
+    
+    Also, Chihuahua moves to year-round -06.
+    * NEWS: Mention this.
+    * northamerica (Mexico): No DST after 2022.
+    (America/Ojinaga, America/Chihuahua): Switch from -07 to -06
+    on 2022-10-30 02:00.
+
+diff --git a/NEWS b/NEWS
+index 331c1d20..5689811e 100644
+--- a/NEWS
++++ b/NEWS
+@@ -16,6 +18,13 @@ Unreleased, experimental changes
+ 
+   Changes to future timestamps
+ 
++    Mexico will no longer observe DST after 2022, except for areas
++    near the US border that continue to observe US DST rules.
++    On 2022-10-30 at 02:00 the Mexican state of Chihuahua moves
++    from -07 (-06 with DST) to year-round -06, thus not changing
++    its clocks that day.  The new law states that Chihuahua
++    near the US border no longer observes US DST.
++
+     Fiji will not observe DST in 2022/3.  (Thanks to Shalvin Narayan.)
+     For now, assume DST is suspended indefinitely.
+ 
+diff --git a/northamerica b/northamerica
+index 1f16a1c9..df195435 100644
+--- a/northamerica
++++ b/northamerica
+@@ -2461,6 +2461,12 @@
+ # about 1970, and uses PST for standard time in Yukon since then.  Consistent
+ # with that, use MST for -07, the new standard time in Yukon effective Nov. 1.
+ 
++# From Paul Eggert (2022-10-28):
++# The new Mexican law was published today:
++# https://www.dof.gob.mx/nota_detalle.php?codigo=5670045&fecha=28/10/2022
++# This abolishes DST except where US DST rules are observed,
++# and in addition changes all of Chihuahua to -06 with no DST.
++
+ # Rule	NAME	FROM	TO	-	IN	ON	AT	SAVE	LETTER/S
+ Rule	NT_YK	1918	only	-	Apr	14	2:00	1:00	D
+ Rule	NT_YK	1918	only	-	Oct	27	2:00	0	S
+@@ -2748,8 +2754,8 @@
+ Rule	Mexico	1996	2000	-	Oct	lastSun	2:00	0	S
+ Rule	Mexico	2001	only	-	May	Sun>=1	2:00	1:00	D
+ Rule	Mexico	2001	only	-	Sep	lastSun	2:00	0	S
+-Rule	Mexico	2002	max	-	Apr	Sun>=1	2:00	1:00	D
+-Rule	Mexico	2002	max	-	Oct	lastSun	2:00	0	S
++Rule	Mexico	2002	2022	-	Apr	Sun>=1	2:00	1:00	D
++Rule	Mexico	2002	2022	-	Oct	lastSun	2:00	0	S
+ # Zone	NAME		STDOFF	RULES	FORMAT	[UNTIL]
+ # Quintana Roo; represented by Cancún
+ Zone America/Cancun	-5:47:04 -	LMT	1922 Jan  1  0:12:56
+@@ -2806,7 +2812,8 @@ Zone America/Ojinaga     -6:57:40 -      LMT     1922 Jan  1  7:00u
+ 			-6:00	Mexico	C%sT	1998
+ 			-6:00	-	CST	1998 Apr Sun>=1  3:00
+ 			-7:00	Mexico	M%sT	2010
+-			-7:00	US	M%sT
++			-7:00	US	M%sT	2022 Oct 30  2:00
++			-6:00	-	CST
+ # Chihuahua (away from US border)
+ Zone America/Chihuahua	-7:04:20 -	LMT	1921 Dec 31 23:55:40
+ 			-7:00	-	MST	1927 Jun 10 23:00
+@@ -2817,7 +2824,8 @@ Zone America/Chihuahua   -7:04:20 -      LMT     1922 Jan  1  7:00u
+ 			-6:00	-	CST	1996
+ 			-6:00	Mexico	C%sT	1998
+ 			-6:00	-	CST	1998 Apr Sun>=1  3:00
+-			-7:00	Mexico	M%sT
++			-7:00	Mexico	M%sT	2022 Oct 30  2:00
++			-6:00	-	CST
+ # Sonora
+ Zone America/Hermosillo	-7:23:52 -	LMT	1921 Dec 31 23:36:08
+ 			-7:00	-	MST	1927 Jun 10 23:00
+@@ -2921,6 +2929,10 @@ Zone America/Tijuana    -7:48:04 -      LMT     1922 Jan  1  7:00u
+ # http://dof.gob.mx/nota_detalle.php?codigo=5127480&fecha=06/01/2010
+ # It has been moved to the 'backward' file.
+ #
++# From Paul Eggert (2022-10-28):
++# Today's new law states that the entire state of Baja California
++# follows US DST rules, which agrees with simplifications noted above.
++#
+ #
+ # Revillagigedo Is
+ # no information

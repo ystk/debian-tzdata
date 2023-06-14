@@ -1,3 +1,30 @@
+tzdata (2021a-0+deb8u10) jessie; urgency=medium
+
+  * Sync patchset with stretch.
+  * Revert the Lebanon DST change.
+  * No leap second in June 2023.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Tue, 02 May 2023 15:02:59 +0200
+
+tzdata (2021a-0+deb8u9) jessie; urgency=medium
+
+  * Update DST rules for Greenland
+  * Update DST rules for Egypt
+  * Update DST rules for Morocco
+  * Update DST rules for Palestine
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 24 Mar 2023 13:00:13 +0100
+
+tzdata (2021a-0+deb8u8) jessie; urgency=medium
+
+  * Backport changes from upstream:
+    - Fiji no longer observes DST.
+    - Update DST rules for Mexico.
+    - Update DST rules for Lebanon.
+  * Add myself to Uploaders.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 24 Mar 2023 10:55:26 +0100
+
 tzdata (2021a-0+deb8u7) jessie; urgency=medium
 
   * Cherry-pick patches from upstream (thanks Aurelien Jarno):

@@ -14,3 +14,14 @@ java.diff -p1
 11-palestine-dst3.patch
 12-syria-dst.patch
 13-jordan-dst.patch
+14-fiji-dst.patch
+15-mexico-dst.patch
+16-greenland-dst.patch
+17-mexico-dst-chihuahua.patch
+18-no-leap-second-2023-06-30.patch
+19-greenland-dst2.patch
+20-egypt-dst.patch
+21-morroco-dst.patch
+22-palestine-dst4.patch
+23-lebanon-dst.patch
+24-lebanon-dst2.patch
