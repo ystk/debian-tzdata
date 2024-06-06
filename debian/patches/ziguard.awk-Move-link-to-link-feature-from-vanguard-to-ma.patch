@@ -1,0 +1,39 @@
+From: Benjamin Drung <benjamin.drung@canonical.com>
+Date: Wed, 3 Apr 2024 15:14:50 +0200
+Subject: ziguard.awk: Move link to link feature from vanguard to main
+ dataform
+
+When using BACKWARD=backward PACKRATDATA=backzone the symlinks might
+point to the incorrect file (e.g. Africa/Asmera points to Africa/Nairobi
+instead of Africa/Asmara).
+
+Move the link to link feature from vanguard to main dataform to produce
+correct symlink (e.g. Africa/Asmera -> Africa/Asmara) in this case.
+
+Forwarded: https://mm.icann.org/pipermail/tz/2024-April/058853.html
+---
+ ziguard.awk | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/ziguard.awk b/ziguard.awk
+index 7a3404f..f6b8d24 100644
+--- a/ziguard.awk
++++ b/ziguard.awk
+@@ -340,7 +340,7 @@ function make_linkline(oldline, target, linkname, oldtarget, comment, \
+   return "Link\t" target "\t" replsuffix comment
+ }
+ 
+-/^Link/ && $4 == "#=" && DATAFORM == "vanguard" {
++/^Link/ && $4 == "#=" && (DATAFORM != "rearguard") {
+   $0 = make_linkline($0, $5, $3, $2)
+ }
+ 
+@@ -378,7 +378,7 @@ function cut_link_chains_short( \
+ }
+ 
+ END {
+-  if (DATAFORM != "vanguard") {
++  if (DATAFORM == "rearguard") {
+     cut_link_chains_short()
+   }
+   for (i = 1; i <= NR; i++)

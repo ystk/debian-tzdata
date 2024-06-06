@@ -1,27 +1,5 @@
 pacificnew.diff -p1
 systemv.diff -p1
 java.diff -p1
-01-no-leap-second-2021-12-31.patch
-02-samoa-dst.patch
-03-jordan-dst.patch
-04-fiji-dst.patch
-05-palestine-dst.patch
-06-palestine-dst2.patch
-07-no-leap-second-2022-06-30.patch
-08-iran-dst.patch
-09-chile-dst.patch
-10-no-leap-second-2022-12-31.patch
-11-palestine-dst3.patch
-12-syria-dst.patch
-13-jordan-dst.patch
-14-fiji-dst.patch
-15-mexico-dst.patch
-16-greenland-dst.patch
-17-mexico-dst-chihuahua.patch
-18-no-leap-second-2023-06-30.patch
-19-greenland-dst2.patch
-20-egypt-dst.patch
-21-morroco-dst.patch
-22-palestine-dst4.patch
-23-lebanon-dst.patch
-24-lebanon-dst2.patch
+ziguard.awk-Move-link-to-link-feature-from-vanguard-to-ma.patch
+reorder-tz-links.diff

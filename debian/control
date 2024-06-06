@@ -1,8 +1,8 @@
 Source: tzdata
 Section: localization
 Priority: required
-Build-Depends: debhelper (>= 5.0.0)
-Build-Depends-Indep: po-debconf, openjdk-7-jre-headless, rdfind, symlinks
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: gawk, po-debconf, openjdk-7-jre-headless, symlinks
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Uploaders: Clint Adams <clint@debian.org>,
            Aurelien Jarno <aurel32@debian.org>,

@@ -2764,15 +2764,15 @@ msgstr "Moscou -01 (Kaliningrad)"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:9001
-msgid "Kiev"
-msgstr "Kiyeef"
+msgid "Kirov"
+msgstr ""
 
 #. Type: select
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:9001
-msgid "Kirov"
-msgstr ""
+msgid "Kyiv"
+msgstr "Kiyeef"
 
 #. Type: select
 #. Choices
@@ -3174,13 +3174,6 @@ msgstr "Efate"
 #. Choices
 #. Translators: do not translate underscores. You can use spaces instead.
 #: ../tzdata.templates:11001
-msgid "Enderbury"
-msgstr "Enderbury (îles Phoenix)"
-
-#. Type: select
-#. Choices
-#. Translators: do not translate underscores. You can use spaces instead.
-#: ../tzdata.templates:11001
 msgid "Fakaofo"
 msgstr "Fakaofo"
 
@@ -3239,6 +3232,13 @@ msgstr "Honolulu"
 #: ../tzdata.templates:11001
 msgid "Johnston"
 msgstr "Atoll Johnston"
+
+#. Type: select
+#. Choices
+#. Translators: do not translate underscores. You can use spaces instead.
+#: ../tzdata.templates:11001
+msgid "Kanton"
+msgstr ""
 
 #. Type: select
 #. Choices

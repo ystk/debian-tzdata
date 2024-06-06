@@ -71,7 +71,7 @@ Template: tzdata/Zones/Europe
 Type: select
 # Translators: do not translate underscores. You can use spaces instead.
 #flag:partial
-__Choices: Amsterdam, Andorra, Astrakhan, Athens, Belfast, Belgrade, Berlin, Bratislava, Brussels, Bucharest, Budapest, Busingen, Chisinau, Copenhagen, Dublin, Gibraltar, Guernsey, Helsinki, Isle_of_Man, Istanbul, Jersey, Kaliningrad, Kiev, Kirov, Lisbon, Ljubljana, London, Luxembourg, Madrid, Malta, Mariehamn, Minsk, Monaco, Moscow, Nicosia, Oslo, Paris, Podgorica, Prague, Riga, Rome, Samara, San_Marino, Sarajevo, Saratov, Simferopol, Skopje, Sofia, Stockholm, Tallinn, Tirane, Tiraspol, Ulyanovsk, Uzhgorod, Vaduz, Vatican, Vienna, Vilnius, Volgograd, Warsaw, Zagreb, Zaporozhye, Zurich
+__Choices: Amsterdam, Andorra, Astrakhan, Athens, Belfast, Belgrade, Berlin, Bratislava, Brussels, Bucharest, Budapest, Busingen, Chisinau, Copenhagen, Dublin, Gibraltar, Guernsey, Helsinki, Isle_of_Man, Istanbul, Jersey, Kaliningrad, Kirov, Kyiv, Lisbon, Ljubljana, London, Luxembourg, Madrid, Malta, Mariehamn, Minsk, Monaco, Moscow, Nicosia, Oslo, Paris, Podgorica, Prague, Riga, Rome, Samara, San_Marino, Sarajevo, Saratov, Simferopol, Skopje, Sofia, Stockholm, Tallinn, Tirane, Tiraspol, Ulyanovsk, Uzhgorod, Vaduz, Vatican, Vienna, Vilnius, Volgograd, Warsaw, Zagreb, Zaporozhye, Zurich
 _Description: Time zone:
  Please select the city or region corresponding to your time zone.
 
@@ -87,7 +87,7 @@ Template: tzdata/Zones/Pacific
 Type: select
 # Translators: do not translate underscores. You can use spaces instead.
 #flag:partial
-__Choices: Apia, Auckland, Bougainville, Chatham, Chuuk, Easter, Efate, Enderbury, Fakaofo, Fiji, Funafuti, Galapagos, Gambier, Guadalcanal, Guam, Honolulu, Johnston, Kiritimati, Kosrae, Kwajalein, Majuro, Marquesas, Midway, Nauru, Niue, Norfolk, Noumea, Pago_Pago, Palau, Pitcairn, Pohnpei, Ponape, Port_Moresby, Rarotonga, Saipan, Samoa, Tahiti, Tarawa, Tongatapu, Truk, Wake, Wallis, Yap
+__Choices: Apia, Auckland, Bougainville, Chatham, Chuuk, Easter, Efate, Fakaofo, Fiji, Funafuti, Galapagos, Gambier, Guadalcanal, Guam, Honolulu, Johnston, Kanton, Kiritimati, Kosrae, Kwajalein, Majuro, Marquesas, Midway, Nauru, Niue, Norfolk, Noumea, Pago_Pago, Palau, Pitcairn, Pohnpei, Ponape, Port_Moresby, Rarotonga, Saipan, Samoa, Tahiti, Tarawa, Tongatapu, Truk, Wake, Wallis, Yap
 _Description: Time zone:
  Please select the city or region corresponding to your time zone.
 

@@ -1,3 +1,25 @@
+tzdata (2024a-0+deb8u1) jessie; urgency=medium
+
+  * New upstream version 2024a.
+  * Drop all patches.
+  * Rename Pacific/Enderbury to Pacific/Kanton
+  * Rename Europe/Kiev into Europe/Kyiv
+  * Import translations for "Kyiv" and "Kanton" from sid.
+  * Update the build for compatibility with older zic and with previous
+    tzdata releases.
+  * Reorder links in backward file, needed to build with our old zic.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Wed, 24 Apr 2024 15:23:47 +0200
+
+tzdata (2021a-0+deb8u11) jessie; urgency=medium
+
+  * Cherry-pick patches from upstream (thanks Aurelien Jarno)
+    - 25-no-leap-second-on-2023-12-31.patch: Update leap-seconds.list from
+      upstream. The new expiration date is 28 June 2024.  Closes: #1057185,
+      #1057186.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 15 Dec 2023 12:13:15 +0100
+
 tzdata (2021a-0+deb8u10) jessie; urgency=medium
 
   * Sync patchset with stretch.

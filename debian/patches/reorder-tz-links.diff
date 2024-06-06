@@ -1,0 +1,57 @@
+From: Emilio Pozuelo Monfort <pochu@debian.org>
+
+Reorder links, so that links that are later used as targets are created
+before. Otherwise hard links will fail to be created, as our version of
+zic in glibc doesn't support reordering the links as needed. See:
+
+https://github.com/eggert/tz/commit/4878b644b25020568d4dda346c5cea91826c0c7c
+https://github.com/eggert/tz/commit/34c4662760df3af2ad9ec0aab5cc3ffba51dde80
+
+diff --git a/backward b/backward
+index 65c711b3..c353e93e 100644
+--- a/backward
++++ b/backward
+@@ -30,6 +30,7 @@
+ # Pre-1993 naming conventions
+ 
+ # Link	TARGET			LINK-NAME	#= TARGET1
++Link	Australia/Sydney	Australia/Canberra
+ Link	Australia/Sydney	Australia/ACT	#= Australia/Canberra
+ Link	Australia/Lord_Howe	Australia/LHI
+ Link	Australia/Sydney	Australia/NSW
+@@ -40,6 +41,7 @@ Link	Australia/Hobart	Australia/Tasmania
+ Link	Australia/Melbourne	Australia/Victoria
+ Link	Australia/Perth		Australia/West
+ Link	Australia/Broken_Hill	Australia/Yancowinna
++Link	America/Rio_Branco	America/Porto_Acre
+ Link	America/Rio_Branco	Brazil/Acre	#= America/Porto_Acre
+ Link	America/Noronha		Brazil/DeNoronha
+ Link	America/Sao_Paulo	Brazil/East
+@@ -101,6 +103,7 @@ Link	America/Mazatlan	Mexico/BajaSur
+ Link	America/Mexico_City	Mexico/General
+ Link	Pacific/Auckland	NZ
+ Link	Pacific/Chatham		NZ-CHAT
++Link	America/Denver		America/Shiprock
+ Link	America/Denver		Navajo	#= America/Shiprock
+ Link	Asia/Shanghai		PRC
+ Link	Europe/Warsaw		Poland
+@@ -267,11 +270,9 @@ Link	America/Indiana/Indianapolis	America/Fort_Wayne
+ Link	America/Toronto		America/Montreal
+ Link	America/Toronto		America/Nipigon
+ Link	America/Iqaluit		America/Pangnirtung
+-Link	America/Rio_Branco	America/Porto_Acre
+ Link	America/Winnipeg	America/Rainy_River
+ Link	America/Argentina/Cordoba	America/Rosario
+ Link	America/Tijuana		America/Santa_Isabel
+-Link	America/Denver		America/Shiprock
+ Link	America/Toronto		America/Thunder_Bay
+ Link	America/Edmonton	America/Yellowknife
+ Link	Pacific/Auckland	Antarctica/South_Pole
+@@ -280,7 +281,6 @@ Link	Asia/Shanghai		Asia/Harbin
+ Link	Asia/Urumqi		Asia/Kashgar
+ Link	Asia/Jerusalem		Asia/Tel_Aviv
+ Link	Europe/Berlin		Atlantic/Jan_Mayen
+-Link	Australia/Sydney	Australia/Canberra
+ Link	Australia/Hobart	Australia/Currie
+ Link	Europe/London		Europe/Belfast
+ Link	Europe/Chisinau		Europe/Tiraspol
