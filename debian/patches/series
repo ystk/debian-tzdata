@@ -3,3 +3,4 @@ systemv.diff -p1
 java.diff -p1
 ziguard.awk-Move-link-to-link-feature-from-vanguard-to-ma.patch
 reorder-tz-links.diff
+revert-systemv-deprecation.patch

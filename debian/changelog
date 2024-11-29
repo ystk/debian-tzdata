@@ -1,3 +1,15 @@
+tzdata (2024b-0+deb8u1) jessie; urgency=medium
+
+  * New upstream version 2024b
+    - Improve historical data for Mexico, Mongolia, and Portugal.
+    - Asia/Choibalsan is now an alias for Asia/Ulaanbaatar
+    - No leap second on 2024-12-31
+  * Revert System V names deprecation
+  * Use rearguard dataform, since our zic doesn't support %z, which
+    is now used in main dataform.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Thu, 28 Nov 2024 19:26:06 +0100
+
 tzdata (2024a-0+deb8u1) jessie; urgency=medium
 
   * New upstream version 2024a.

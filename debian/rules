@@ -29,16 +29,16 @@ TEMPLATES_AREAS := Africa \
 	dh $@
 
 override_dh_auto_build-indep:
-	# Generate a main.zi file
-	$(MAKE) AWK=gawk BACKWARD="backward systemv pacificnew" PACKRATDATA=backzone PACKRATLIST=zone.tab VERSION_DEPS= main.zi
+	# Generate a rearguard.zi file
+	$(MAKE) AWK=gawk BACKWARD="backward systemv pacificnew" PACKRATDATA=backzone PACKRATLIST=zone.tab VERSION_DEPS= rearguard.zi
 
 	# Build the timezone data
-	/usr/sbin/zic -d $(TZGEN) -L /dev/null main.zi ; \
-	/usr/sbin/zic -d $(TZGEN)/posix -L /dev/null main.zi ; \
-	/usr/sbin/zic -d $(TZGEN)/right -L leapseconds main.zi ; \
+	/usr/sbin/zic -d $(TZGEN) -L /dev/null rearguard.zi ; \
+	/usr/sbin/zic -d $(TZGEN)/posix -L /dev/null rearguard.zi ; \
+	/usr/sbin/zic -d $(TZGEN)/right -L leapseconds rearguard.zi ; \
 
 	# Replace hardlinks by symlinks
-	grep '^Link\b' $(CURDIR)/main.zi | while read Link target name ; do \
+	grep '^Link\b' $(CURDIR)/rearguard.zi | while read Link target name comment ; do \
 		ln -sf $(TZGEN)/$$target $(TZGEN)/$$name ; \
 		ln -sf $(TZGEN)/posix/$$target $(TZGEN)/posix/$$name ; \
 		ln -sf $(TZGEN)/right/$$target $(TZGEN)/right/$$name ; \
