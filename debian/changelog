@@ -1,3 +1,11 @@
+tzdata (2025a-0+deb8u1) jessie; urgency=medium
+
+  * New upstream version 2025a.
+    - Paraguay adopts permanent -03 starting spring 2024.
+    - No leap second on 2025-06-30.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Tue, 18 Mar 2025 14:18:37 +0100
+
 tzdata (2024b-0+deb8u1) jessie; urgency=medium
 
   * New upstream version 2024b
